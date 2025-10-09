@@ -1,74 +1,73 @@
 {
   "rates": {
+    "mirror": {
+      "divine": 1365.7
+    },
     "divine": {
-      "exalted": 716.76,
-      "chaos": 30.72
+      "exalted": 707.85,
+      "chaos": 30.43
     },
     "annulment": {
       "divine": 0.44,
-      "exalted": 266.3
-    },
-    "mirror": {
-      "divine": 1355.13
-    },
-    "omen_whittling": {
-      "divine": 2.75,
-      "chaos": 80.97,
-      "exalted": 1311.59
-    },
-    "hinekora_lock": {
-      "divine": 507.94
+      "exalted": 257.83
     },
     "omen_light": {
-      "divine": 4.26,
-      "exalted": 2403.35,
-      "chaos": 127.86
+      "divine": 4.28,
+      "exalted": 2444.71,
+      "chaos": 130.99
     },
-    "rakiata_flow": {
-      "divine": 21.54
+    "hinekora_lock": {
+      "divine": 512.08
+    },
+    "omen_whittling": {
+      "divine": 2.86,
+      "exalted": 1474.53
     },
     "perfect_exalted": {
-      "divine": 1.9
+      "divine": 1.92
     },
-    "omen_of_sinistral_annulment": {
-      "divine": 6.69
+    "rakiata_flow": {
+      "divine": 21.56
     },
     "ancient_jawbone": {
-      "divine": 4.8
-    },
-    "farrul_rune": {
-      "divine": 10.4
+      "divine": 4.78
     },
     "talisman_sirrius": {
       "divine": 10.64
     },
-    "essence_of_horror": {
-      "divine": 5.9
+    "omen_of_sinistral_annulment": {
+      "divine": 6.9
     },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.66
-    },
-    "diallas_desire": {
-      "divine": 31.01
-    },
-    "perfect_chaos": {
-      "divine": 2.28
+    "farrul_rune": {
+      "divine": 10.36
     },
     "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 28.06
+      "divine": 28.09
+    },
+    "omen_of_sinistral_erasure": {
+      "divine": 4.75
+    },
+    "diallas_desire": {
+      "divine": 31.46
     },
     "atalui_bloodletting": {
-      "divine": 13
+      "divine": 13.1
     },
     "omen_of_dextral_annulment": {
-      "divine": 3.8
+      "divine": 3.93
+    },
+    "essence_of_horror": {
+      "divine": 6.11
+    },
+    "tertiary_calamity_fragment": {
+      "divine": 1.47
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-09T22:57:04.203929Z",
+    "fetched_at": "2025-10-09T23:11:07.351485Z",
     "ttl_seconds": 300,
-    "total_pairs": 25
+    "total_pairs": 24
   }
 }
