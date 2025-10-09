@@ -1,0 +1,38 @@
+{
+  "currencies": [
+    {
+      "id": "chaos",
+      "name": "Chaos Orb",
+      "volume": 15000,
+      "pair_count": 25,
+      "popularity_score": 100.0,
+      "supported": true
+    },
+    {
+      "id": "exalted",
+      "name": "Exalted Orb",
+      "volume": 15000,
+      "pair_count": 25,
+      "popularity_score": 100.0,
+      "supported": true
+    },
+    {
+      "id": "divine",
+      "name": "Divine Orb",
+      "volume": 15000,
+      "pair_count": 25,
+      "popularity_score": 100.0,
+      "supported": true
+    }
+  ],
+  "total": 3,
+  "source": "placeholder",
+  "league": "Rise of the Abyssal",
+  "fetched_at": "2025-10-09T00:00:00Z",
+  "metadata": {
+    "scraper": "placeholder",
+    "version": "1.0",
+    "top_percentage": 0.8
+  }
+}
+

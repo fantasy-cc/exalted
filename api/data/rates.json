@@ -1,0 +1,24 @@
+{
+  "rates": {
+    "chaos": {
+      "exalted": 0.268,
+      "divine": 0.0302
+    },
+    "exalted": {
+      "chaos": 3.73,
+      "divine": 0.112
+    },
+    "divine": {
+      "chaos": 33.09,
+      "exalted": 8.93
+    }
+  },
+  "metadata": {
+    "source": "placeholder",
+    "league": "Rise of the Abyssal",
+    "fetched_at": "2025-10-09T00:00:00Z",
+    "ttl_seconds": 300,
+    "total_pairs": 6
+  }
+}
+

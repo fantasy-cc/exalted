@@ -1,0 +1,23 @@
+{
+  "name": "poe2-arbitrage-calculator",
+  "version": "1.0.0",
+  "description": "Path of Exile 2 Currency Arbitrage Calculator",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'No build step required for static frontend'",
+    "start": "python -m http.server 3000"
+  },
+  "keywords": [
+    "path-of-exile",
+    "poe2",
+    "arbitrage",
+    "currency",
+    "trading",
+    "calculator"
+  ],
+  "author": "PoE2 Community",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

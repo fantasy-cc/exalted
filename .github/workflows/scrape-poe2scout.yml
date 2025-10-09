@@ -1,0 +1,75 @@
+name: Scrape POE2Scout Currency Data
+
+on:
+  schedule:
+    # Run every 5 minutes
+    - cron: '*/5 * * * *'
+  
+  # Allow manual triggering from Actions tab
+  workflow_dispatch:
+  
+  # Run on push to test
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/scrape-poe2scout.yml'
+      - '.github/scripts/scrape_poe2scout.py'
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install Python dependencies
+        run: |
+          pip install playwright requests beautifulsoup4 lxml
+          playwright install chromium
+          playwright install-deps chromium
+      
+      - name: Run POE2Scout scraper
+        run: |
+          python .github/scripts/scrape_poe2scout.py
+        env:
+          PYTHONUNBUFFERED: 1
+      
+      - name: Check if data changed
+        id: check_changes
+        run: |
+          if git diff --quiet api/data/*.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in currency data"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in currency data"
+          fi
+      
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'POE2 Data Bot'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add api/data/*.json
+          git commit -m "🤖 Update POE2 currency data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+      
+      - name: Report status
+        if: always()
+        run: |
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Successfully updated POE2 currency data"
+          else
+            echo "ℹ️ No changes in POE2 currency data"
+          fi
+

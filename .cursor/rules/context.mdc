@@ -1,0 +1,27 @@
+---
+alwaysApply: true
+---
+
+# Context Management for PoE2 Arbitrage Calculator
+
+## Primary Context Source
+**Read `AGENT.md` first** - Contains comprehensive project documentation, technical details, and development guidelines.
+
+## Update Requirements  
+**Always update `AGENT.md`** when making changes to:
+- Currency exchange rates or supported currencies
+- Arbitrage calculation algorithms
+- UI components or styling
+- Project structure or new features
+
+## Quick Reference
+- **Project**: Path of Exile 2 currency arbitrage calculator (single-page web app)
+- **Core files**: `index.html`, `script.js`, `styles.css`, `AGENT.md`
+- **Theme**: Dark UI with PoE gold accents (#d4af37)
+- **Algorithm**: 3-step currency arbitrage paths (A→B→C→A)
+
+## Workflow
+1. Read `AGENT.md` for full context
+2. Make your changes
+3. Update relevant sections in `AGENT.md`
+4. Test calculations and responsiveness
