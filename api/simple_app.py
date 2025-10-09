@@ -11,13 +11,22 @@ from fastapi.responses import JSONResponse
 from typing import Dict, List
 import logging
 
-from static_data import (
-    load_currencies,
-    load_rates,
-    get_exchange_rate,
-    convert_currency,
-    find_arbitrage_opportunities
-)
+try:
+    from .static_data import (
+        load_currencies,
+        load_rates,
+        get_exchange_rate,
+        convert_currency,
+        find_arbitrage_opportunities
+    )
+except ImportError:
+    from static_data import (
+        load_currencies,
+        load_rates,
+        get_exchange_rate,
+        convert_currency,
+        find_arbitrage_opportunities
+    )
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
