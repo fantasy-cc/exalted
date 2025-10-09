@@ -10,8 +10,14 @@ import os
 from pathlib import Path
 from typing import Dict, List, Optional
 from datetime import datetime
+import urllib.request
 
-# Get the directory where this file is located
+# GitHub raw content URLs for data files
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/fantasy-cc/exalted/main/api/data"
+CURRENCIES_URL = f"{GITHUB_RAW_BASE}/currencies.json"
+RATES_URL = f"{GITHUB_RAW_BASE}/rates.json"
+
+# Get the directory where this file is located (fallback)
 API_DIR = Path(__file__).parent
 DATA_DIR = API_DIR / 'data'
 
@@ -19,99 +25,96 @@ DATA_DIR = API_DIR / 'data'
 def load_currencies() -> Dict:
     """
     Load currency data from currencies.json
+    Tries GitHub first, then local file, then fallback
     
     Returns:
         Dict with currencies list and metadata
     """
-    currencies_file = DATA_DIR / 'currencies.json'
-    
-    # Debug logging
-    print(f"DEBUG: API_DIR = {API_DIR}")
-    print(f"DEBUG: DATA_DIR = {DATA_DIR}")
-    print(f"DEBUG: currencies_file = {currencies_file}")
-    print(f"DEBUG: File exists? {currencies_file.exists()}")
-    if currencies_file.exists():
-        print(f"DEBUG: File size: {currencies_file.stat().st_size} bytes")
-    
-    if not currencies_file.exists():
-        # Return minimal fallback data
-        return {
-            'currencies': [
-                {'id': 'chaos', 'name': 'Chaos Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True},
-                {'id': 'exalted', 'name': 'Exalted Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True},
-                {'id': 'divine', 'name': 'Divine Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True}
-            ],
-            'total': 3,
-            'source': 'fallback',
-            'league': 'Rise of the Abyssal',
-            'fetched_at': datetime.utcnow().isoformat() + 'Z'
-        }
-    
+    # Try fetching from GitHub first
     try:
-        with open(currencies_file, 'r') as f:
-            return json.load(f)
+        print(f"DEBUG: Fetching from GitHub: {CURRENCIES_URL}")
+        with urllib.request.urlopen(CURRENCIES_URL, timeout=5) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            print(f"DEBUG: Successfully loaded {data.get('total', 0)} currencies from GitHub")
+            return data
     except Exception as e:
-        print(f"Error loading currencies: {e}")
-        # Return minimal fallback
-        return {
-            'currencies': [
-                {'id': 'chaos', 'name': 'Chaos Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True},
-                {'id': 'exalted', 'name': 'Exalted Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True},
-                {'id': 'divine', 'name': 'Divine Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True}
-            ],
-            'total': 3,
-            'source': 'fallback',
-            'league': 'Rise of the Abyssal',
-            'fetched_at': datetime.utcnow().isoformat() + 'Z'
-        }
+        print(f"DEBUG: GitHub fetch failed: {e}")
+    
+    # Try local file as fallback
+    currencies_file = DATA_DIR / 'currencies.json'
+    print(f"DEBUG: Trying local file: {currencies_file}")
+    
+    if currencies_file.exists():
+        try:
+            with open(currencies_file, 'r') as f:
+                data = json.load(f)
+                print(f"DEBUG: Loaded from local file")
+                return data
+        except Exception as e:
+            print(f"DEBUG: Local file error: {e}")
+    
+    # Final fallback
+    print("DEBUG: Using fallback data")
+    return {
+        'currencies': [
+            {'id': 'chaos', 'name': 'Chaos Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True},
+            {'id': 'exalted', 'name': 'Exalted Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True},
+            {'id': 'divine', 'name': 'Divine Orb', 'volume': 15000, 'pair_count': 25, 'popularity_score': 100.0, 'supported': True}
+        ],
+        'total': 3,
+        'source': 'fallback',
+        'league': 'Rise of the Abyssal',
+        'fetched_at': datetime.utcnow().isoformat() + 'Z'
+    }
 
 
 def load_rates() -> Dict:
     """
     Load exchange rate data from rates.json
+    Tries GitHub first, then local file, then fallback
     
     Returns:
         Dict with rates and metadata
     """
-    rates_file = DATA_DIR / 'rates.json'
-    
-    if not rates_file.exists():
-        # Return minimal fallback data
-        return {
-            'rates': {
-                'chaos': {'exalted': 0.268, 'divine': 0.0302},
-                'exalted': {'chaos': 3.73, 'divine': 0.112},
-                'divine': {'chaos': 33.09, 'exalted': 8.93}
-            },
-            'metadata': {
-                'source': 'fallback',
-                'league': 'Rise of the Abyssal',
-                'fetched_at': datetime.utcnow().isoformat() + 'Z',
-                'ttl_seconds': 300,
-                'total_pairs': 6
-            }
-        }
-    
+    # Try fetching from GitHub first
     try:
-        with open(rates_file, 'r') as f:
-            return json.load(f)
+        print(f"DEBUG: Fetching rates from GitHub: {RATES_URL}")
+        with urllib.request.urlopen(RATES_URL, timeout=5) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            print(f"DEBUG: Successfully loaded rates from GitHub")
+            return data
     except Exception as e:
-        print(f"Error loading rates: {e}")
-        # Return minimal fallback
-        return {
-            'rates': {
-                'chaos': {'exalted': 0.268, 'divine': 0.0302},
-                'exalted': {'chaos': 3.73, 'divine': 0.112},
-                'divine': {'chaos': 33.09, 'exalted': 8.93}
-            },
-            'metadata': {
-                'source': 'fallback',
-                'league': 'Rise of the Abyssal',
-                'fetched_at': datetime.utcnow().isoformat() + 'Z',
-                'ttl_seconds': 300,
-                'total_pairs': 6
-            }
+        print(f"DEBUG: GitHub rates fetch failed: {e}")
+    
+    # Try local file as fallback
+    rates_file = DATA_DIR / 'rates.json'
+    print(f"DEBUG: Trying local rates file: {rates_file}")
+    
+    if rates_file.exists():
+        try:
+            with open(rates_file, 'r') as f:
+                data = json.load(f)
+                print(f"DEBUG: Loaded rates from local file")
+                return data
+        except Exception as e:
+            print(f"DEBUG: Local rates file error: {e}")
+    
+    # Final fallback
+    print("DEBUG: Using fallback rates data")
+    return {
+        'rates': {
+            'chaos': {'exalted': 0.268, 'divine': 0.0302},
+            'exalted': {'chaos': 3.73, 'divine': 0.112},
+            'divine': {'chaos': 33.09, 'exalted': 8.93}
+        },
+        'metadata': {
+            'source': 'fallback',
+            'league': 'Rise of the Abyssal',
+            'fetched_at': datetime.utcnow().isoformat() + 'Z',
+            'ttl_seconds': 300,
+            'total_pairs': 6
         }
+    }
 
 
 def get_exchange_rate(from_currency: str, to_currency: str) -> float:
