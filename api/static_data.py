@@ -9,7 +9,7 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 import urllib.request
 
 # GitHub raw content URLs for data files
@@ -64,7 +64,7 @@ def load_currencies() -> Dict:
         'total': 3,
         'source': 'fallback',
         'league': 'Rise of the Abyssal',
-        'fetched_at': datetime.utcnow().isoformat() + 'Z'
+        'fetched_at': datetime.now(timezone.utc).isoformat() + 'Z'
     }
 
 
@@ -110,7 +110,7 @@ def load_rates() -> Dict:
         'metadata': {
             'source': 'fallback',
             'league': 'Rise of the Abyssal',
-            'fetched_at': datetime.utcnow().isoformat() + 'Z',
+            'fetched_at': datetime.now(timezone.utc).isoformat() + 'Z',
             'ttl_seconds': 300,
             'total_pairs': 6
         }
