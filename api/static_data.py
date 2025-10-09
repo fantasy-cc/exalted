@@ -25,6 +25,14 @@ def load_currencies() -> Dict:
     """
     currencies_file = DATA_DIR / 'currencies.json'
     
+    # Debug logging
+    print(f"DEBUG: API_DIR = {API_DIR}")
+    print(f"DEBUG: DATA_DIR = {DATA_DIR}")
+    print(f"DEBUG: currencies_file = {currencies_file}")
+    print(f"DEBUG: File exists? {currencies_file.exists()}")
+    if currencies_file.exists():
+        print(f"DEBUG: File size: {currencies_file.stat().st_size} bytes")
+    
     if not currencies_file.exists():
         # Return minimal fallback data
         return {
