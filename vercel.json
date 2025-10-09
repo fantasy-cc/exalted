@@ -1,9 +1,18 @@
 {
   "version": 2,
+  "functions": {
+    "api/**/*.py": {
+      "includeFiles": "api/data/**"
+    }
+  },
   "builds": [
     {
       "src": "api/index.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "api/data/**",
+      "use": "@vercel/static"
     },
     {
       "src": "public/**",
@@ -11,6 +20,10 @@
     }
   ],
   "routes": [
+    {
+      "src": "/api/data/(.*)",
+      "dest": "/api/data/$1"
+    },
     {
       "src": "/api/(.*)",
       "dest": "/api/index.py"
