@@ -1,71 +1,72 @@
 {
   "rates": {
+    "omen_light": {
+      "divine": 3.9,
+      "exalted": 2659.06
+    },
     "mirror": {
-      "divine": 1499.28
+      "divine": 1512.86
     },
     "divine": {
-      "chaos": 33.62,
-      "exalted": 800.92
+      "chaos": 33.75,
+      "exalted": 796.82
     },
     "annulment": {
       "divine": 0.43,
-      "exalted": 300.61
+      "exalted": 305.9
     },
     "omen_whittling": {
-      "divine": 2.65,
-      "exalted": 1640.58,
-      "chaos": 85.7
-    },
-    "omen_light": {
-      "divine": 4.12,
-      "exalted": 2749.68,
-      "chaos": 129.83
+      "divine": 2.67,
+      "chaos": 85.39
     },
     "hinekora_lock": {
-      "divine": 497.12
-    },
-    "ancient_jawbone": {
-      "divine": 4.13
-    },
-    "essence_of_horror": {
-      "divine": 5.07
+      "divine": 500.75
     },
     "perfect_exalted": {
       "divine": 1.8
     },
-    "omen_of_sinistral_annulment": {
-      "divine": 5.81
-    },
-    "rakiata_flow": {
-      "divine": 21.42
-    },
-    "talisman_sirrius": {
-      "divine": 8.59
+    "ancient_jawbone": {
+      "divine": 4.32
     },
     "omen_of_sinistral_erasure": {
-      "divine": 4.79
+      "divine": 4.81
     },
-    "farrul_rune": {
-      "divine": 9.67
+    "rakiata_flow": {
+      "divine": 21.47
+    },
+    "omen_of_sinistral_annulment": {
+      "divine": 5.85
+    },
+    "talisman_sirrius": {
+      "divine": 7.27
     },
     "diallas_desire": {
-      "divine": 30.64
+      "divine": 30.98
+    },
+    "farrul_rune": {
+      "divine": 9.72
     },
     "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 22.65
+      "divine": 22.85
     },
-    "atalui_bloodletting": {
-      "divine": 14.05
+    "omen_of_dextral_annulment": {
+      "divine": 3.62
+    },
+    "essence_of_horror": {
+      "divine": 4.81
     },
     "perfect_chaos": {
-      "divine": 2.26
+      "divine": 2.31
+    },
+    "atalui_bloodletting": {
+      "divine": 13.76
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-10T10:55:57.673105Z",
+    "fetched_at": "2025-10-10T11:10:22.239352Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 23
   }
 }
