@@ -1,72 +1,72 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1437.36
-    },
-    "divine": {
-      "chaos": 35.36,
-      "exalted": 831.18
+      "divine": 1427.6
     },
     "annulment": {
       "divine": 0.41,
-      "exalted": 306.85
+      "exalted": 306.35
+    },
+    "divine": {
+      "chaos": 36.2,
+      "exalted": 831.59
     },
     "omen_whittling": {
-      "divine": 2.57,
-      "chaos": 86.93
+      "divine": 2.62,
+      "chaos": 90.71,
+      "exalted": 1708.8
     },
     "omen_light": {
-      "divine": 3.44,
-      "chaos": 119.45,
-      "exalted": 2365.14
+      "divine": 3.4,
+      "exalted": 2179.89
     },
     "hinekora_lock": {
-      "divine": 497.48
+      "divine": 483.11
     },
     "perfect_exalted": {
       "divine": 1.73
     },
     "ancient_jawbone": {
-      "divine": 4.12
+      "divine": 4.08
     },
     "omen_of_sinistral_annulment": {
-      "divine": 5.36
+      "divine": 5.53
     },
-    "diallas_desire": {
-      "divine": 30.56
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.33
+    "farrul_rune": {
+      "divine": 9.29
     },
     "rakiata_flow": {
-      "divine": 20.96
+      "divine": 20.65
+    },
+    "essence_of_horror": {
+      "divine": 3.4
     },
     "hedgewitch_assandras_rune_of_wisdom": {
       "divine": 26.37
     },
-    "omen_of_dextral_annulment": {
-      "divine": 3.62
+    "diallas_desire": {
+      "divine": 30.58
     },
-    "farrul_rune": {
-      "divine": 9.49
+    "omen_of_sinistral_erasure": {
+      "divine": 4.28
     },
     "talisman_sirrius": {
-      "divine": 6.31
+      "divine": 6.25
     },
-    "perfect_chaos": {
-      "divine": 2.43
+    "omen_of_dextral_annulment": {
+      "divine": 3.58
     },
     "atalui_bloodletting": {
-      "divine": 16.25
+      "divine": 16.55
     },
-    "essence_of_horror": {
-      "divine": 3.22
+    "perfect_chaos": {
+      "divine": 2.35
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-11T05:56:39.688667Z",
+    "fetched_at": "2025-10-11T06:17:16.859249Z",
     "ttl_seconds": 300,
     "total_pairs": 24
   }
