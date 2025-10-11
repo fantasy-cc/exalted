@@ -1,75 +1,10 @@
 {
-  "rates": {
-    "omen_whittling": {
-      "divine": 2.59,
-      "exalted": 1816.01
-    },
-    "omen_light": {
-      "divine": 3.45,
-      "chaos": 119.88
-    },
-    "divine": {
-      "chaos": 36.79,
-      "exalted": 823.59
-    },
-    "mirror": {
-      "divine": 1420.3
-    },
-    "annulment": {
-      "divine": 0.41,
-      "exalted": 305.91
-    },
-    "hinekora_lock": {
-      "divine": 478
-    },
-    "perfect_exalted": {
-      "divine": 1.72
-    },
-    "omen_of_sinistral_annulment": {
-      "divine": 5.46
-    },
-    "rakiata_flow": {
-      "divine": 20.53
-    },
-    "ancient_jawbone": {
-      "divine": 3.62
-    },
-    "diallas_desire": {
-      "divine": 30.46
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 3.57
-    },
-    "farrul_rune": {
-      "divine": 9.34
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.16
-    },
-    "talisman_sirrius": {
-      "divine": 6.24
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 26.43
-    },
-    "atalui_bloodletting": {
-      "divine": 16.68
-    },
-    "perfect_chaos": {
-      "divine": 2.32
-    },
-    "omen_of_dextral_erasure": {
-      "divine": 2.29
-    },
-    "ancient_collarbone": {
-      "divine": 6.67
-    }
-  },
+  "rates": {},
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-11T07:55:39.573571Z",
+    "fetched_at": "2025-10-11T08:00:45.008272Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 0
   }
 }
