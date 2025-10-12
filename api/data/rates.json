@@ -1,70 +1,69 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1442.35
-    },
-    "omen_whittling": {
-      "divine": 2.68,
-      "chaos": 90.91,
-      "exalted": 1751.9
+      "divine": 1440.36
     },
     "divine": {
-      "chaos": 36.29,
-      "exalted": 909.87
+      "chaos": 36.85,
+      "exalted": 924.23
     },
     "annulment": {
       "divine": 0.43,
-      "exalted": 309.46
+      "exalted": 316.45
+    },
+    "omen_whittling": {
+      "divine": 2.66,
+      "exalted": 1719.63,
+      "chaos": 92.08
     },
     "omen_light": {
       "divine": 3.58,
-      "chaos": 123.04
+      "exalted": 2346.81,
+      "chaos": 123.48
     },
     "hinekora_lock": {
-      "divine": 461
-    },
-    "perfect_exalted": {
-      "divine": 1.63
+      "divine": 462.8
     },
     "ancient_jawbone": {
-      "divine": 3.72
+      "divine": 3.56
+    },
+    "perfect_exalted": {
+      "divine": 1.62,
+      "exalted": 1132.29
     },
     "rakiata_flow": {
-      "divine": 18.47
+      "divine": 18.54
     },
     "omen_of_sinistral_annulment": {
-      "divine": 5.41
+      "divine": 5.44
     },
     "omen_of_sinistral_erasure": {
-      "divine": 4.25
-    },
-    "farrul_rune": {
-      "divine": 8.51
-    },
-    "diallas_desire": {
-      "divine": 30
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 23.7
+      "divine": 4.17
     },
     "perfect_chaos": {
-      "divine": 2.29
+      "divine": 2.33
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 23.39
+    },
+    "diallas_desire": {
+      "divine": 29.99
     },
     "omen_of_dextral_annulment": {
-      "divine": 3.4
+      "divine": 3.38
+    },
+    "farrul_rune": {
+      "divine": 8.67
     },
     "atalui_bloodletting": {
-      "divine": 13.18
-    },
-    "essence_of_horror": {
-      "divine": 3.11
+      "divine": 13.3
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-12T04:02:00.100439Z",
+    "fetched_at": "2025-10-12T04:27:10.981998Z",
     "ttl_seconds": 300,
-    "total_pairs": 23
+    "total_pairs": 24
   }
 }
