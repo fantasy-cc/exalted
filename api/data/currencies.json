@@ -1,9 +1,170 @@
 {
-  "currencies": [],
-  "total": 0,
+  "currencies": [
+    {
+      "id": "divine",
+      "name": "Divine Orb",
+      "volume": 148326974,
+      "pair_count": 19,
+      "popularity_score": 99.5,
+      "supported": true
+    },
+    {
+      "id": "mirror",
+      "name": "Mirror of Kalandra",
+      "volume": 26180720,
+      "pair_count": 1,
+      "popularity_score": 58.33,
+      "supported": true
+    },
+    {
+      "id": "omen_whittling",
+      "name": "Omen of Whittling",
+      "volume": 20979958,
+      "pair_count": 3,
+      "popularity_score": 56.07,
+      "supported": true
+    },
+    {
+      "id": "chaos",
+      "name": "Chaos Orb",
+      "volume": 19502683,
+      "pair_count": 3,
+      "popularity_score": 54.57,
+      "supported": true
+    },
+    {
+      "id": "annulment",
+      "name": "Orb of Annulment",
+      "volume": 17977124,
+      "pair_count": 2,
+      "popularity_score": 54.56,
+      "supported": true
+    },
+    {
+      "id": "omen_light",
+      "name": "Omen of Light",
+      "volume": 17165155,
+      "pair_count": 3,
+      "popularity_score": 53.29,
+      "supported": true
+    },
+    {
+      "id": "exalted",
+      "name": "Exalted Orb",
+      "volume": 15539986,
+      "pair_count": 4,
+      "popularity_score": 51.74,
+      "supported": true
+    },
+    {
+      "id": "hinekora_lock",
+      "name": "Hinekora's Lock",
+      "volume": 11309637,
+      "pair_count": 1,
+      "popularity_score": 50.81,
+      "supported": true
+    },
+    {
+      "id": "perfect_exalted",
+      "name": "Perfect Exalted Orb",
+      "volume": 6284120,
+      "pair_count": 1,
+      "popularity_score": 48.12,
+      "supported": true
+    },
+    {
+      "id": "omen_of_sinistral_annulment",
+      "name": "Omen of Sinistral Annulment",
+      "volume": 4255234,
+      "pair_count": 1,
+      "popularity_score": 46.93,
+      "supported": true
+    },
+    {
+      "id": "ancient_jawbone",
+      "name": "Ancient Jawbone",
+      "volume": 4087124,
+      "pair_count": 1,
+      "popularity_score": 46.38,
+      "supported": true
+    },
+    {
+      "id": "rakiata_flow",
+      "name": "Rakiata's Flow",
+      "volume": 3826509,
+      "pair_count": 1,
+      "popularity_score": 45.79,
+      "supported": true
+    },
+    {
+      "id": "omen_of_sinistral_erasure",
+      "name": "Omen of Sinistral Erasure",
+      "volume": 3648614,
+      "pair_count": 1,
+      "popularity_score": 45.23,
+      "supported": true
+    },
+    {
+      "id": "omen_of_dextral_annulment",
+      "name": "Omen of Dextral Annulment",
+      "volume": 3389778,
+      "pair_count": 1,
+      "popularity_score": 44.64,
+      "supported": true
+    },
+    {
+      "id": "farrul_rune",
+      "name": "Farrul's Rune of the Chase",
+      "volume": 2712890,
+      "pair_count": 1,
+      "popularity_score": 43.91,
+      "supported": true
+    },
+    {
+      "id": "hedgewitch_assandras_rune_of_wisdom",
+      "name": "Hedgewitch Assandra's Rune of Wisdom",
+      "volume": 2255701,
+      "pair_count": 1,
+      "popularity_score": 43.26,
+      "supported": true
+    },
+    {
+      "id": "perfect_chaos",
+      "name": "Perfect Chaos Orb",
+      "volume": 2146296,
+      "pair_count": 1,
+      "popularity_score": 42.72,
+      "supported": true
+    },
+    {
+      "id": "diallas_desire",
+      "name": "Dialla's Desire",
+      "volume": 1943496,
+      "pair_count": 1,
+      "popularity_score": 41.16,
+      "supported": true
+    },
+    {
+      "id": "primary_calamity_fragment",
+      "name": "Primary Calamity Fragment",
+      "volume": 1805628,
+      "pair_count": 1,
+      "popularity_score": 40.61,
+      "supported": true
+    },
+    {
+      "id": "omen_of_dextral_erasure",
+      "name": "Omen of Dextral Erasure",
+      "volume": 1666871,
+      "pair_count": 1,
+      "popularity_score": 38.56,
+      "supported": true
+    }
+  ],
+  "total": 20,
   "source": "poe2scout",
   "league": "Rise of the Abyssal",
-  "fetched_at": "2025-10-13T19:01:23.070564Z",
+  "fetched_at": "2025-10-13T19:17:40.917422Z",
   "metadata": {
     "scraper": "github-actions",
     "version": "1.0",
