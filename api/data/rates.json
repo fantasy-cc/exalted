@@ -1,73 +1,78 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1634.07
+      "divine": 1648.38
     },
     "omen_whittling": {
-      "divine": 3.58,
-      "chaos": 115.51
+      "divine": 3.43,
+      "chaos": 111.53
     },
     "divine": {
-      "chaos": 34.75,
-      "exalted": 943.77
+      "chaos": 34.52,
+      "exalted": 952.62
     },
     "omen_light": {
-      "divine": 3.85,
-      "chaos": 122.76,
-      "exalted": 2836.19
+      "divine": 3.84,
+      "chaos": 124.96
     },
     "annulment": {
-      "divine": 0.42,
-      "exalted": 316.71
+      "divine": 0.43,
+      "exalted": 313.77
     },
     "hinekora_lock": {
-      "divine": 506.56
+      "divine": 502.67
     },
     "perfect_exalted": {
       "divine": 1.72
     },
     "omen_of_sinistral_annulment": {
-      "divine": 6.36
+      "divine": 6.34
     },
     "omen_of_dextral_annulment": {
       "divine": 5.26
     },
     "ancient_jawbone": {
-      "divine": 4.02
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.38
-    },
-    "perfect_chaos": {
-      "divine": 2.49
+      "divine": 3.84
     },
     "farrul_rune": {
-      "divine": 9.23
-    },
-    "rakiata_flow": {
-      "divine": 19.46
-    },
-    "essence_of_horror": {
-      "divine": 2.82
+      "divine": 9.24
     },
     "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 21.36
+      "divine": 21.5
+    },
+    "omen_of_sinistral_erasure": {
+      "divine": 4.37
+    },
+    "talisman_sirrius": {
+      "divine": 2.02
+    },
+    "rakiata_flow": {
+      "divine": 19.41
+    },
+    "perfect_chaos": {
+      "divine": 2.51
     },
     "diallas_desire": {
-      "divine": 30.15
+      "divine": 30.03
+    },
+    "essence_of_horror": {
+      "divine": 2.86
     },
     "omen_of_dextral_erasure": {
       "divine": 3.07
     },
     "primary_calamity_fragment": {
-      "divine": 2.42
+      "divine": 2.48
+    },
+    "ancient_rib": {
+      "divine": 1.83
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-14T09:00:03.977858Z",
+    "fetched_at": "2025-10-14T09:19:33.903510Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 25
   }
 }
