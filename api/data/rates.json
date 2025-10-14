@@ -1,82 +1,73 @@
 {
   "rates": {
-    "omen_whittling": {
-      "divine": 3.58
+    "mirror": {
+      "divine": 1662.33
     },
     "divine": {
-      "chaos": 32.56,
-      "exalted": 938.61
+      "chaos": 32.23,
+      "exalted": 936.82
+    },
+    "hinekora_lock": {
+      "divine": 502.35
+    },
+    "omen_whittling": {
+      "divine": 3.56,
+      "chaos": 111.39
+    },
+    "annulment": {
+      "divine": 0.41,
+      "exalted": 324.99
     },
     "omen_light": {
       "divine": 3.86,
-      "chaos": 119.4
-    },
-    "annulment": {
-      "divine": 0.42
-    },
-    "mirror": {
-      "divine": 1667
-    },
-    "hinekora_lock": {
-      "divine": 503.69
+      "chaos": 118.94,
+      "exalted": 2833.7
     },
     "perfect_exalted": {
-      "divine": 1.8
+      "divine": 1.79
     },
     "ancient_jawbone": {
       "divine": 4.18
     },
+    "rakiata_flow": {
+      "divine": 19.02
+    },
     "omen_of_sinistral_annulment": {
-      "divine": 6.51
+      "divine": 6.66
+    },
+    "omen_of_sinistral_erasure": {
+      "divine": 4.65
+    },
+    "farrul_rune": {
+      "divine": 9.57
+    },
+    "diallas_desire": {
+      "divine": 28.5
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 21.6
     },
     "omen_of_dextral_annulment": {
-      "divine": 5.14
+      "divine": 5.13
     },
     "perfect_chaos": {
       "divine": 2.63
     },
-    "rakiata_flow": {
-      "divine": 19.08
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.61
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 21.62
-    },
-    "farrul_rune": {
-      "divine": 9.58
-    },
-    "diallas_desire": {
-      "divine": 28.62
-    },
-    "ancient_collarbone": {
-      "divine": 6.87
-    },
-    "atalui_bloodletting": {
-      "divine": 12.52
-    },
-    "ancient_rib": {
-      "divine": 1.9
+    "uhtreds_augury": {
+      "divine": 70.37
     },
     "runic_splinter": {
       "divine": 0.01
     },
-    "omen_of_dextral_erasure": {
-      "divine": 2.8
-    },
-    "essence_of_horror": {
-      "divine": 2.76
-    },
-    "uhtreds_augury": {
-      "divine": 70.94
+    "atalui_bloodletting": {
+      "divine": 12.44
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-14T22:58:50.502679Z",
+    "fetched_at": "2025-10-14T23:15:56.573281Z",
     "ttl_seconds": 300,
-    "total_pairs": 25
+    "total_pairs": 24
   }
 }
