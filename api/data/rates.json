@@ -1,74 +1,76 @@
 {
   "rates": {
-    "mirror": {
-      "divine": 1679.53
+    "divine": {
+      "chaos": 34.35,
+      "exalted": 1021.38
     },
     "omen_whittling": {
-      "divine": 3.35,
-      "chaos": 108.44
+      "divine": 3.29,
+      "chaos": 106.48
     },
-    "divine": {
-      "chaos": 34.51,
-      "exalted": 1016.28
-    },
-    "omen_light": {
-      "divine": 3.78,
-      "chaos": 128.26
+    "mirror": {
+      "divine": 1685.25
     },
     "annulment": {
-      "divine": 0.39,
-      "chaos": 12.77
+      "divine": 0.39
+    },
+    "omen_light": {
+      "divine": 3.71,
+      "chaos": 127.41
     },
     "hinekora_lock": {
-      "divine": 503.42
+      "divine": 499.21
     },
     "perfect_exalted": {
-      "divine": 1.75
+      "divine": 1.73
     },
     "omen_of_sinistral_annulment": {
-      "divine": 6.81
-    },
-    "ancient_jawbone": {
-      "divine": 3.84
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 5.24
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.34
+      "divine": 6.82
     },
     "rakiata_flow": {
-      "divine": 18.38
+      "divine": 18.37
     },
-    "perfect_chaos": {
-      "divine": 2.8
+    "ancient_jawbone": {
+      "divine": 3.85
     },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 21.69
+    "omen_of_sinistral_erasure": {
+      "divine": 4.32
+    },
+    "omen_of_dextral_annulment": {
+      "divine": 5.01
     },
     "farrul_rune": {
-      "divine": 9.62
+      "divine": 9.69
     },
-    "primary_calamity_fragment": {
-      "divine": 2.66
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 21.63
     },
-    "ancient_collarbone": {
-      "divine": 6.67
+    "perfect_chaos": {
+      "divine": 2.76
     },
     "diallas_desire": {
-      "divine": 27.93
+      "divine": 27.74
     },
-    "ancient_rib": {
-      "divine": 1.78
+    "ancient_collarbone": {
+      "divine": 6.64
     },
     "atalui_bloodletting": {
-      "divine": 12.62
+      "divine": 12.59
+    },
+    "primary_calamity_fragment": {
+      "divine": 2.63
+    },
+    "countess_seskes_rune_of_archery": {
+      "divine": 4.85
+    },
+    "omen_of_dextral_erasure": {
+      "divine": 2.82
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-15T16:00:08.641644Z",
+    "fetched_at": "2025-10-15T16:26:54.093902Z",
     "ttl_seconds": 300,
     "total_pairs": 24
   }
