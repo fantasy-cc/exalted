@@ -1,10 +1,78 @@
 {
-  "rates": {},
+  "rates": {
+    "mirror": {
+      "divine": 1760.94
+    },
+    "divine": {
+      "chaos": 32.91,
+      "exalted": 1028.47
+    },
+    "omen_light": {
+      "divine": 3.87,
+      "chaos": 124.74
+    },
+    "annulment": {
+      "divine": 0.38
+    },
+    "hinekora_lock": {
+      "divine": 490.17
+    },
+    "omen_whittling": {
+      "divine": 2.91,
+      "chaos": 91
+    },
+    "perfect_exalted": {
+      "divine": 1.75,
+      "chaos": 58.27
+    },
+    "ancient_jawbone": {
+      "divine": 3.91
+    },
+    "omen_of_sinistral_annulment": {
+      "divine": 6.7
+    },
+    "omen_of_dextral_annulment": {
+      "divine": 5.83
+    },
+    "rakiata_flow": {
+      "divine": 15.94
+    },
+    "omen_of_sinistral_erasure": {
+      "divine": 4.43
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 25.54
+    },
+    "uhtreds_augury": {
+      "divine": 86.61
+    },
+    "perfect_chaos": {
+      "divine": 3.43
+    },
+    "primary_calamity_fragment": {
+      "divine": 2.42
+    },
+    "diallas_desire": {
+      "divine": 27.71
+    },
+    "farrul_rune": {
+      "divine": 9.76
+    },
+    "atalui_bloodletting": {
+      "divine": 14.28
+    },
+    "secondary_calamity_fragment": {
+      "divine": 1.78
+    },
+    "ancient_collarbone": {
+      "divine": 6.55
+    }
+  },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-16T17:57:16.744291Z",
+    "fetched_at": "2025-10-16T18:18:46.575688Z",
     "ttl_seconds": 300,
-    "total_pairs": 0
+    "total_pairs": 25
   }
 }
