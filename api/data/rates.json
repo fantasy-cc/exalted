@@ -1,75 +1,74 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1701.5
+      "divine": 1715.86
     },
     "divine": {
-      "chaos": 34.4,
-      "exalted": 1031.84
+      "chaos": 34.51,
+      "exalted": 1023.89
     },
     "omen_whittling": {
-      "divine": 2.85,
-      "chaos": 85.98
+      "divine": 2.83,
+      "chaos": 91.3
     },
     "omen_light": {
-      "divine": 3.69,
-      "chaos": 122.38,
-      "exalted": 2964.38
+      "divine": 3.66,
+      "chaos": 121.04
     },
     "annulment": {
       "divine": 0.38
     },
-    "perfect_exalted": {
-      "divine": 1.73
-    },
     "hinekora_lock": {
-      "divine": 492.67
+      "divine": 490.93
+    },
+    "perfect_exalted": {
+      "divine": 1.71
+    },
+    "ancient_jawbone": {
+      "divine": 3.9
     },
     "omen_of_sinistral_annulment": {
       "divine": 6.62
     },
-    "ancient_jawbone": {
-      "divine": 3.91
-    },
     "omen_of_dextral_annulment": {
-      "divine": 4.71
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.47
-    },
-    "farrul_rune": {
-      "divine": 9.64
+      "divine": 4.63
     },
     "perfect_chaos": {
-      "divine": 3.39
+      "divine": 3.34
     },
-    "omen_of_dextral_erasure": {
-      "divine": 2.67
+    "omen_of_sinistral_erasure": {
+      "divine": 4.39
     },
     "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.57
+      "divine": 25.51
+    },
+    "ancient_collarbone": {
+      "divine": 6.83
+    },
+    "farrul_rune": {
+      "divine": 9.68
     },
     "rakiata_flow": {
-      "divine": 16.69
-    },
-    "primary_calamity_fragment": {
-      "divine": 2.41
+      "divine": 16.91
     },
     "diallas_desire": {
-      "divine": 28.11
+      "divine": 28.02
     },
     "atalui_bloodletting": {
-      "divine": 13.42
+      "divine": 13.46
     },
-    "greater_chaos_orb": {
-      "divine": 0.09
+    "omen_of_dextral_erasure": {
+      "divine": 2.59
+    },
+    "primary_calamity_fragment": {
+      "divine": 2.45
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-16T06:58:25.060023Z",
+    "fetched_at": "2025-10-16T07:15:48.986052Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 23
   }
 }
