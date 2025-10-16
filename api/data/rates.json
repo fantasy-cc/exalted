@@ -1,74 +1,74 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1766.43
+      "divine": 1762.11
     },
     "divine": {
-      "chaos": 32.53,
-      "exalted": 1011.94
+      "chaos": 31.98,
+      "exalted": 1006.11
     },
     "omen_whittling": {
-      "divine": 2.86,
-      "chaos": 89.59
+      "divine": 2.95,
+      "chaos": 88.59
+    },
+    "omen_light": {
+      "divine": 3.81,
+      "chaos": 124.18
     },
     "hinekora_lock": {
-      "divine": 507.09
+      "divine": 500.59
     },
     "annulment": {
       "divine": 0.38
     },
-    "omen_light": {
-      "divine": 3.82,
-      "chaos": 125.56
+    "perfect_exalted": {
+      "divine": 1.79,
+      "chaos": 56.82
     },
     "omen_of_sinistral_annulment": {
-      "divine": 6.52
-    },
-    "perfect_exalted": {
-      "divine": 1.78,
-      "chaos": 57.06
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 5.37
+      "divine": 6.64
     },
     "ancient_jawbone": {
-      "divine": 3.85
+      "divine": 3.87
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 23.14
     },
     "perfect_chaos": {
-      "divine": 3.39
+      "divine": 3.36
+    },
+    "rakiata_flow": {
+      "divine": 15.98
     },
     "omen_of_sinistral_erasure": {
       "divine": 4.41
     },
     "farrul_rune": {
-      "divine": 9.69
+      "divine": 9.66
     },
     "diallas_desire": {
-      "divine": 28.03
+      "divine": 28.1
     },
-    "primary_calamity_fragment": {
-      "divine": 2.39
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 23.44
-    },
-    "rakiata_flow": {
-      "divine": 16.21
+    "omen_of_dextral_annulment": {
+      "divine": 5.35
     },
     "runic_splinter": {
       "divine": 0.01
     },
     "omen_of_dextral_erasure": {
-      "divine": 2.57
+      "divine": 2.65
     },
-    "essence_of_horror": {
-      "divine": 2.24
+    "uhtreds_augury": {
+      "divine": 79.25
+    },
+    "omen_of_chance": {
+      "divine": 6.83
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-16T21:59:00.648477Z",
+    "fetched_at": "2025-10-16T22:17:42.250643Z",
     "ttl_seconds": 300,
     "total_pairs": 24
   }
