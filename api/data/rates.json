@@ -1,74 +1,76 @@
 {
   "rates": {
-    "mirror": {
-      "divine": 1734.61
-    },
     "omen_whittling": {
-      "divine": 3.04,
-      "chaos": 98.89
+      "divine": 2.94,
+      "chaos": 89.6
     },
     "divine": {
-      "chaos": 33.72,
-      "exalted": 1023.12
+      "chaos": 34.47,
+      "exalted": 1027.87
     },
-    "hinekora_lock": {
-      "divine": 496.24
+    "mirror": {
+      "divine": 1714.5
+    },
+    "omen_light": {
+      "divine": 3.78,
+      "chaos": 118.71
     },
     "annulment": {
       "divine": 0.39
     },
-    "omen_light": {
-      "divine": 3.8,
-      "chaos": 122.91
-    },
     "perfect_exalted": {
-      "divine": 1.79,
-      "chaos": 58.24
+      "divine": 1.73
+    },
+    "hinekora_lock": {
+      "divine": 491.39
     },
     "ancient_jawbone": {
-      "divine": 4.01
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 4.76
+      "divine": 3.91
     },
     "omen_of_sinistral_annulment": {
-      "divine": 6.7
+      "divine": 6.64
     },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.38
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 24.68
+    "omen_of_dextral_annulment": {
+      "divine": 4.84
     },
     "perfect_chaos": {
-      "divine": 2.95
-    },
-    "rakiata_flow": {
-      "divine": 17
+      "divine": 3.03
     },
     "farrul_rune": {
-      "divine": 9.69
+      "divine": 9.54
     },
-    "diallas_desire": {
-      "divine": 28.69
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 24.33
+    },
+    "rakiata_flow": {
+      "divine": 16.78
     },
     "omen_of_dextral_erasure": {
-      "divine": 2.66
+      "divine": 2.72
     },
-    "greater_chaos_orb": {
-      "divine": 0.1
+    "omen_of_sinistral_erasure": {
+      "divine": 4.39
+    },
+    "diallas_desire": {
+      "divine": 28.1
     },
     "primary_calamity_fragment": {
-      "divine": 2.43
+      "divine": 2.4
     },
     "ancient_collarbone": {
-      "divine": 6.79
+      "divine": 6.73
+    },
+    "uhtreds_augury": {
+      "divine": 68.84
+    },
+    "talisman_sirrius": {
+      "divine": 1.69
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-16T03:59:01.338655Z",
+    "fetched_at": "2025-10-16T04:19:30.934954Z",
     "ttl_seconds": 300,
     "total_pairs": 24
   }
