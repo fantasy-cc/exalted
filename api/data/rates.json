@@ -1,76 +1,74 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1748.54
+      "divine": 1737.68
     },
     "divine": {
-      "chaos": 28.4,
-      "exalted": 1126.13
-    },
-    "hinekora_lock": {
-      "divine": 500.29
-    },
-    "omen_whittling": {
-      "divine": 3.19,
-      "chaos": 87.33
+      "chaos": 27.9,
+      "exalted": 1115.13
     },
     "omen_light": {
       "divine": 3.93,
-      "chaos": 101.5
+      "chaos": 105.65
+    },
+    "omen_whittling": {
+      "divine": 3.15,
+      "chaos": 84.17
+    },
+    "hinekora_lock": {
+      "divine": 500.59
     },
     "annulment": {
       "divine": 0.38
     },
     "perfect_exalted": {
-      "divine": 2.33
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 6.43
+      "divine": 2.3,
+      "chaos": 64.45
     },
     "ancient_jawbone": {
-      "divine": 4.71
+      "divine": 4.63
     },
     "omen_of_sinistral_annulment": {
-      "divine": 7.65
+      "divine": 7.61
     },
-    "rakiata_flow": {
-      "divine": 13.51
-    },
-    "diallas_desire": {
-      "divine": 30.32
+    "omen_of_dextral_annulment": {
+      "divine": 6.39
     },
     "perfect_chaos": {
       "divine": 3.82
     },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.71
+    "rakiata_flow": {
+      "divine": 13.49
     },
-    "atalui_bloodletting": {
-      "divine": 15.48
+    "omen_of_sinistral_erasure": {
+      "divine": 4.76
     },
     "farrul_rune": {
-      "divine": 9.76
+      "divine": 9.62
     },
-    "omen_of_chance": {
-      "divine": 7.92
+    "diallas_desire": {
+      "divine": 30.49
     },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.23
+    "atalui_bloodletting": {
+      "divine": 15.6
     },
     "primary_calamity_fragment": {
-      "divine": 2.7
+      "divine": 2.82
     },
-    "ancient_rib": {
-      "divine": 1.86
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 24.89
     },
     "uhtreds_augury": {
-      "divine": 79.21
+      "divine": 78.24
+    },
+    "secondary_calamity_fragment": {
+      "divine": 1.95
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-18T16:00:55.667013Z",
+    "fetched_at": "2025-10-18T16:27:51.278929Z",
     "ttl_seconds": 300,
     "total_pairs": 24
   }
