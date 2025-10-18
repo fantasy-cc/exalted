@@ -1,79 +1,80 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1750.14
+      "divine": 1750
     },
     "divine": {
-      "chaos": 28.96,
-      "exalted": 1047.81
+      "chaos": 28.98,
+      "exalted": 1042.06
     },
     "omen_whittling": {
-      "divine": 2.95
+      "divine": 2.94,
+      "chaos": 76.02
     },
     "omen_light": {
-      "divine": 3.92,
-      "chaos": 105.78
+      "divine": 3.93,
+      "chaos": 106.68
     },
     "annulment": {
       "divine": 0.37
     },
+    "hinekora_lock": {
+      "divine": 498.8
+    },
     "perfect_exalted": {
       "divine": 1.96
     },
-    "hinekora_lock": {
-      "divine": 497.38
-    },
-    "ancient_jawbone": {
-      "divine": 4.19
+    "perfect_chaos": {
+      "divine": 3.47
     },
     "omen_of_sinistral_annulment": {
-      "divine": 7.34
+      "divine": 7.43
+    },
+    "ancient_jawbone": {
+      "divine": 4.25
     },
     "omen_of_sinistral_erasure": {
-      "divine": 4.6
+      "divine": 4.69
     },
     "rakiata_flow": {
-      "divine": 14.94
-    },
-    "farrul_rune": {
-      "divine": 10.61
-    },
-    "primary_calamity_fragment": {
-      "divine": 2.35
+      "divine": 14.63
     },
     "omen_of_dextral_annulment": {
-      "divine": 6.04
+      "divine": 6
+    },
+    "diallas_desire": {
+      "divine": 28.61
+    },
+    "farrul_rune": {
+      "divine": 10.62
     },
     "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.24
+      "divine": 25.4
     },
     "atalui_bloodletting": {
-      "divine": 15.18
+      "divine": 14.91
     },
-    "perfect_chaos": {
-      "divine": 3.46
+    "ancient_rib": {
+      "divine": 1.81
     },
-    "greater_chaos_orb": {
-      "divine": 0.12
-    },
-    "omen_of_dextral_erasure": {
-      "divine": 2.75
-    },
-    "uhtreds_augury": {
-      "divine": 79.6
+    "primary_calamity_fragment": {
+      "divine": 2.36
     },
     "runic_splinter": {
       "divine": 0.01
     },
-    "diallas_desire": {
-      "divine": 28.32
+    "uhtreds_augury": {
+      "divine": 77
+    },
+    "ancient_collarbone": {
+      "divine": 6.73
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-17T23:57:47.601443Z",
+    "fetched_at": "2025-10-18T00:54:22.231288Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 25
   }
 }
