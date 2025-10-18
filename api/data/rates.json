@@ -1,76 +1,76 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1740.58
+      "divine": 1754.33
     },
     "divine": {
-      "chaos": 29.27,
-      "exalted": 1066.15
-    },
-    "omen_light": {
-      "divine": 3.92,
-      "chaos": 108.06
+      "chaos": 29.22,
+      "exalted": 1081.37
     },
     "omen_whittling": {
-      "divine": 3.12,
-      "chaos": 88.41
+      "divine": 3.16,
+      "chaos": 87.52
+    },
+    "hinekora_lock": {
+      "divine": 499.91
+    },
+    "omen_light": {
+      "divine": 3.9,
+      "chaos": 108.65
     },
     "annulment": {
       "divine": 0.37
     },
-    "hinekora_lock": {
-      "divine": 506.29
-    },
     "perfect_exalted": {
       "divine": 1.81
     },
+    "ancient_jawbone": {
+      "divine": 4.23
+    },
     "omen_of_sinistral_annulment": {
-      "divine": 7.24
+      "divine": 7.46
+    },
+    "perfect_chaos": {
+      "divine": 3.45
+    },
+    "farrul_rune": {
+      "divine": 10.48
     },
     "omen_of_dextral_annulment": {
       "divine": 6.28
     },
-    "ancient_jawbone": {
-      "divine": 4.16
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.48
-    },
-    "farrul_rune": {
-      "divine": 10.41
-    },
-    "perfect_chaos": {
-      "divine": 3.43
-    },
-    "diallas_desire": {
-      "divine": 28.89
+    "primary_calamity_fragment": {
+      "divine": 2.38
     },
     "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.09
+      "divine": 24.97
     },
     "omen_of_dextral_erasure": {
-      "divine": 2.67
+      "divine": 2.76
     },
-    "rakiata_flow": {
-      "divine": 14.16
+    "omen_of_sinistral_erasure": {
+      "divine": 4.53
     },
-    "greater_chaos_orb": {
-      "divine": 0.13
+    "diallas_desire": {
+      "divine": 28.6
     },
-    "ancient_rib": {
+    "secondary_calamity_fragment": {
       "divine": 1.78
     },
-    "atalui_bloodletting": {
-      "divine": 15.01
+    "rakiata_flow": {
+      "divine": 14.13
     },
-    "essence_of_horror": {
-      "divine": 2.18
+    "ancient_collarbone": {
+      "divine": 6.72
+    },
+    "tertiary_calamity_fragment": {
+      "divine": 1.68
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-18T05:56:06.703175Z",
+    "fetched_at": "2025-10-18T06:13:45.147586Z",
     "ttl_seconds": 300,
     "total_pairs": 24
   }
