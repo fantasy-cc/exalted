@@ -1,77 +1,78 @@
 {
   "rates": {
-    "divine": {
-      "chaos": 26.98,
-      "exalted": 1220.91
-    },
-    "omen_whittling": {
-      "divine": 3.18,
-      "chaos": 82.91
-    },
     "mirror": {
-      "divine": 1736.45
+      "divine": 1739.22
+    },
+    "divine": {
+      "chaos": 25.92,
+      "exalted": 1198.83
     },
     "omen_light": {
-      "divine": 4.24,
-      "chaos": 113.23
+      "divine": 4.32,
+      "chaos": 112.86
     },
     "hinekora_lock": {
-      "divine": 544.03
+      "divine": 543.65
+    },
+    "omen_whittling": {
+      "divine": 3.22,
+      "chaos": 81.63
     },
     "annulment": {
       "divine": 0.38
     },
     "perfect_exalted": {
-      "divine": 2.31
-    },
-    "ancient_jawbone": {
-      "divine": 4.72
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 5.36
-    },
-    "omen_of_sinistral_annulment": {
-      "divine": 6.65
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.21
+      "divine": 2.33,
+      "chaos": 58.99
     },
     "perfect_chaos": {
-      "divine": 3.85
+      "divine": 3.96
+    },
+    "ancient_jawbone": {
+      "divine": 4.74
+    },
+    "omen_of_dextral_annulment": {
+      "divine": 5.56
+    },
+    "omen_of_sinistral_annulment": {
+      "divine": 6.66
     },
     "rakiata_flow": {
-      "divine": 13.52
+      "divine": 13.63
+    },
+    "omen_of_sinistral_erasure": {
+      "divine": 4.24
     },
     "diallas_desire": {
-      "divine": 34.19
+      "divine": 30.97
     },
     "primary_calamity_fragment": {
-      "divine": 2.75
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.14
+      "divine": 2.73
     },
     "atalui_bloodletting": {
-      "divine": 15.43
-    },
-    "omen_of_dextral_erasure": {
-      "divine": 2.72
+      "divine": 15.45
     },
     "farrul_rune": {
-      "divine": 7.98
+      "divine": 8.2
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 25.27
+    },
+    "tertiary_calamity_fragment": {
+      "divine": 1.8
+    },
+    "uhtreds_augury": {
+      "divine": 79.67
     },
     "secondary_calamity_fragment": {
-      "divine": 1.87
-    },
-    "greater_chaos_orb": {
-      "divine": 0.13
+      "divine": 1.8
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-19T17:58:20.188188Z",
+    "fetched_at": "2025-10-19T18:19:37.733204Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 25
   }
 }
