@@ -1,75 +1,78 @@
 {
   "rates": {
-    "mirror": {
-      "divine": 1750.5
-    },
     "divine": {
-      "chaos": 25.5,
-      "exalted": 1214.19
-    },
-    "hinekora_lock": {
-      "divine": 557.15
+      "chaos": 25.44,
+      "exalted": 1191.69
     },
     "omen_light": {
-      "divine": 4.38,
-      "chaos": 112.57
+      "divine": 4.42,
+      "chaos": 109.34
     },
     "omen_whittling": {
-      "divine": 3.21,
-      "chaos": 82.05
+      "divine": 3.23,
+      "chaos": 81.44
+    },
+    "mirror": {
+      "divine": 1746.8
+    },
+    "hinekora_lock": {
+      "divine": 580.07
     },
     "annulment": {
       "divine": 0.38
     },
     "perfect_exalted": {
-      "divine": 2.36,
-      "chaos": 59.21
-    },
-    "omen_of_sinistral_annulment": {
-      "divine": 6.47
+      "divine": 2.4,
+      "chaos": 59.02
     },
     "ancient_jawbone": {
-      "divine": 4.73
+      "divine": 4.83
     },
-    "perfect_chaos": {
-      "divine": 4.09
+    "omen_of_sinistral_annulment": {
+      "divine": 6.4
     },
-    "rakiata_flow": {
-      "divine": 13.64
-    },
-    "omen_of_dextral_annulment": {
-      "divine": 5.5
+    "greater_chaos_orb": {
+      "divine": 0.14
     },
     "diallas_desire": {
-      "divine": 30.14
+      "divine": 30.84
+    },
+    "rakiata_flow": {
+      "divine": 14.42
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 25.27
+    },
+    "omen_of_sinistral_erasure": {
+      "divine": 4.32
+    },
+    "perfect_chaos": {
+      "divine": 3.98
+    },
+    "omen_of_dextral_annulment": {
+      "divine": 5.35
     },
     "atalui_bloodletting": {
       "divine": 15.52
     },
     "primary_calamity_fragment": {
-      "divine": 2.72
+      "divine": 2.73
     },
     "farrul_rune": {
-      "divine": 8.31
+      "divine": 8.33
     },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.09
+    "omen_of_dextral_erasure": {
+      "divine": 2.75
     },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.26
-    },
-    "uhtreds_augury": {
-      "divine": 79.45
-    },
-    "omen_of_chance": {
-      "divine": 7.93
+    "runic_splinter": {
+      "divine": 0.01
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-19T20:01:27.740963Z",
+    "fetched_at": "2025-10-19T20:22:54.486149Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 25
   }
 }
