@@ -1,75 +1,78 @@
 {
   "rates": {
     "mirror": {
-      "divine": 1723.27
+      "divine": 1732.79
     },
     "divine": {
-      "chaos": 26.48,
-      "exalted": 1144.42
+      "chaos": 26.26,
+      "exalted": 1186.73
     },
     "omen_light": {
       "divine": 4.39,
-      "chaos": 110.71
+      "chaos": 113.23
     },
     "omen_whittling": {
-      "divine": 3.26,
-      "chaos": 82.29
-    },
-    "hinekora_lock": {
-      "divine": 556.5
+      "divine": 3.29,
+      "chaos": 83.05
     },
     "annulment": {
       "divine": 0.38
     },
-    "perfect_exalted": {
-      "divine": 2.56,
-      "chaos": 63.22
+    "hinekora_lock": {
+      "divine": 548.12
     },
-    "omen_of_dextral_annulment": {
-      "divine": 6.09
+    "perfect_exalted": {
+      "divine": 2.51,
+      "chaos": 64
     },
     "omen_of_sinistral_annulment": {
-      "divine": 7.28
+      "divine": 7.55
     },
     "ancient_jawbone": {
-      "divine": 4.83
+      "divine": 4.84
     },
-    "perfect_chaos": {
-      "divine": 4.42
-    },
-    "rakiata_flow": {
-      "divine": 13.44
-    },
-    "omen_of_sinistral_erasure": {
-      "divine": 4.39
-    },
-    "hedgewitch_assandras_rune_of_wisdom": {
-      "divine": 25.22
-    },
-    "farrul_rune": {
-      "divine": 8.58
-    },
-    "atalui_bloodletting": {
-      "divine": 15.66
+    "arjuns_medal": {
+      "divine": 188.07
     },
     "diallas_desire": {
-      "divine": 31.53
+      "divine": 32.3
     },
-    "primary_calamity_fragment": {
-      "divine": 2.75
+    "atalui_bloodletting": {
+      "divine": 15.62
+    },
+    "rakiata_flow": {
+      "divine": 13.49
+    },
+    "farrul_rune": {
+      "divine": 8.51
+    },
+    "perfect_chaos": {
+      "divine": 4.36
+    },
+    "omen_of_dextral_annulment": {
+      "divine": 5.97
     },
     "omen_of_dextral_erasure": {
-      "divine": 2.82
+      "divine": 2.87
     },
     "uhtreds_augury": {
-      "divine": 80.42
+      "divine": 80.1
+    },
+    "ancient_collarbone": {
+      "divine": 6.82
+    },
+    "primary_calamity_fragment": {
+      "divine": 2.71
+    },
+    "hedgewitch_assandras_rune_of_wisdom": {
+      "divine": 25.19
     }
   },
   "metadata": {
     "source": "poe2scout",
     "league": "Rise of the Abyssal",
-    "fetched_at": "2025-10-19T09:01:32.062338Z",
+    "fetched_at": "2025-10-19T09:21:09.879418Z",
     "ttl_seconds": 300,
-    "total_pairs": 24
+    "total_pairs": 25
   }
 }
