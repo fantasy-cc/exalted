@@ -3,176 +3,176 @@
     {
       "id": "divine",
       "name": "Divine Orb",
-      "volume": 150669767,
+      "volume": 154730410,
       "pair_count": 20,
       "popularity_score": 99.5,
       "supported": true
     },
     {
-      "id": "chaos",
-      "name": "Chaos Orb",
-      "volume": 40367549,
-      "pair_count": 4,
-      "popularity_score": 62.9,
+      "id": "mirror",
+      "name": "Mirror of Kalandra",
+      "volume": 35396744,
+      "pair_count": 2,
+      "popularity_score": 60.94,
       "supported": true
     },
     {
-      "id": "omen_whittling",
-      "name": "Omen of Whittling",
-      "volume": 24214140,
-      "pair_count": 2,
-      "popularity_score": 57.04,
+      "id": "chaos",
+      "name": "Chaos Orb",
+      "volume": 35000515,
+      "pair_count": 4,
+      "popularity_score": 60.31,
       "supported": true
     },
     {
       "id": "hinekora_lock",
       "name": "Hinekora's Lock",
-      "volume": 24262993,
+      "volume": 18296275,
       "pair_count": 2,
-      "popularity_score": 56.55,
-      "supported": true
-    },
-    {
-      "id": "omen_light",
-      "name": "Omen of Light",
-      "volume": 19915632,
-      "pair_count": 2,
-      "popularity_score": 54.61,
+      "popularity_score": 53.91,
       "supported": true
     },
     {
       "id": "perfect_exalted",
       "name": "Perfect Exalted Orb",
-      "volume": 12082481,
+      "volume": 15758687,
       "pair_count": 2,
-      "popularity_score": 51.01,
+      "popularity_score": 53.59,
+      "supported": true
+    },
+    {
+      "id": "omen_light",
+      "name": "Omen of Light",
+      "volume": 16333493,
+      "pair_count": 2,
+      "popularity_score": 52.78,
+      "supported": true
+    },
+    {
+      "id": "omen_whittling",
+      "name": "Omen of Whittling",
+      "volume": 13111149,
+      "pair_count": 2,
+      "popularity_score": 50.74,
       "supported": true
     },
     {
       "id": "annulment",
       "name": "Orb of Annulment",
-      "volume": 10324660,
+      "volume": 9863096,
       "pair_count": 1,
-      "popularity_score": 50.93,
-      "supported": true
-    },
-    {
-      "id": "mirror",
-      "name": "Mirror of Kalandra",
-      "volume": 11811957,
-      "pair_count": 2,
-      "popularity_score": 50.42,
+      "popularity_score": 50.19,
       "supported": true
     },
     {
       "id": "exalted",
       "name": "Exalted Orb",
-      "volume": 5723437,
+      "volume": 5701661,
       "pair_count": 1,
-      "popularity_score": 47.9,
-      "supported": true
-    },
-    {
-      "id": "omen_of_dextral_annulment",
-      "name": "Omen of Dextral Annulment",
-      "volume": 4902755,
-      "pair_count": 1,
-      "popularity_score": 47.13,
-      "supported": true
-    },
-    {
-      "id": "omen_of_sinistral_annulment",
-      "name": "Omen of Sinistral Annulment",
-      "volume": 3840278,
-      "pair_count": 1,
-      "popularity_score": 45.27,
-      "supported": true
-    },
-    {
-      "id": "rakiata_flow",
-      "name": "Rakiata's Flow",
-      "volume": 3352421,
-      "pair_count": 1,
-      "popularity_score": 44.61,
+      "popularity_score": 47.84,
       "supported": true
     },
     {
       "id": "ancient_jawbone",
       "name": "Ancient Jawbone",
-      "volume": 3079334,
+      "volume": 4182221,
       "pair_count": 1,
-      "popularity_score": 43.52,
+      "popularity_score": 46.35,
       "supported": true
     },
     {
-      "id": "atalui_bloodletting",
-      "name": "Atalui's Bloodletting",
-      "volume": 2484802,
+      "id": "rakiata_flow",
+      "name": "Rakiata's Flow",
+      "volume": 3729398,
       "pair_count": 1,
-      "popularity_score": 42.32,
+      "popularity_score": 45.21,
       "supported": true
     },
     {
       "id": "diallas_desire",
       "name": "Dialla's Desire",
-      "volume": 2373861,
+      "volume": 3294627,
       "pair_count": 1,
-      "popularity_score": 41.79,
+      "popularity_score": 44.56,
       "supported": true
     },
     {
-      "id": "perfect_chaos",
-      "name": "Perfect Chaos Orb",
-      "volume": 2262920,
+      "id": "omen_of_sinistral_annulment",
+      "name": "Omen of Sinistral Annulment",
+      "volume": 3190824,
       "pair_count": 1,
-      "popularity_score": 41.25,
-      "supported": true
-    },
-    {
-      "id": "omen_of_dextral_erasure",
-      "name": "Omen of Dextral Erasure",
-      "volume": 2050993,
-      "pair_count": 1,
-      "popularity_score": 40.68,
+      "popularity_score": 43.53,
       "supported": true
     },
     {
       "id": "hedgewitch_assandras_rune_of_wisdom",
       "name": "Hedgewitch Assandra's Rune of Wisdom",
-      "volume": 2028236,
+      "volume": 3115604,
       "pair_count": 1,
-      "popularity_score": 40.17,
-      "supported": true
-    },
-    {
-      "id": "ancient_rib",
-      "name": "Ancient Rib",
-      "volume": 1942896,
-      "pair_count": 1,
-      "popularity_score": 39.64,
+      "popularity_score": 43.01,
       "supported": true
     },
     {
       "id": "farrul_rune",
       "name": "Farrul's Rune of the Chase",
-      "volume": 1915872,
+      "volume": 2795168,
       "pair_count": 1,
-      "popularity_score": 38.64,
+      "popularity_score": 42.4,
       "supported": true
     },
     {
-      "id": "uhtreds_augury",
-      "name": "Uhtred's Augury",
-      "volume": 1792130,
+      "id": "omen_of_dextral_annulment",
+      "name": "Omen of Dextral Annulment",
+      "volume": 2733487,
       "pair_count": 1,
-      "popularity_score": 38.09,
+      "popularity_score": 41.88,
+      "supported": true
+    },
+    {
+      "id": "atalui_bloodletting",
+      "name": "Atalui's Bloodletting",
+      "volume": 2641719,
+      "pair_count": 1,
+      "popularity_score": 41.35,
+      "supported": true
+    },
+    {
+      "id": "perfect_chaos",
+      "name": "Perfect Chaos Orb",
+      "volume": 2244559,
+      "pair_count": 1,
+      "popularity_score": 40.73,
+      "supported": true
+    },
+    {
+      "id": "primary_calamity_fragment",
+      "name": "Primary Calamity Fragment",
+      "volume": 1979785,
+      "pair_count": 1,
+      "popularity_score": 39.14,
+      "supported": true
+    },
+    {
+      "id": "omen_of_sinistral_erasure",
+      "name": "Omen of Sinistral Erasure",
+      "volume": 1960228,
+      "pair_count": 1,
+      "popularity_score": 38.63,
+      "supported": true
+    },
+    {
+      "id": "ancient_collarbone",
+      "name": "Ancient Collarbone",
+      "volume": 1787222,
+      "pair_count": 1,
+      "popularity_score": 38.08,
       "supported": true
     }
   ],
   "total": 21,
   "source": "poe2scout",
   "league": "Rise of the Abyssal",
-  "fetched_at": "2025-10-23T10:58:21.644081Z",
+  "fetched_at": "2025-10-23T11:14:36.551119Z",
   "metadata": {
     "scraper": "github-actions",
     "version": "1.0",
