@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --poe-dark: #0a0a0c;
+  --poe-darker: #050507;
+  --poe-card: #12121a;
+  --poe-border: #2a2a3a;
+  --poe-gold: #d4af37;
+  --poe-gold-light: #f0d060;
+  --poe-gold-dark: #a08020;
+  --poe-red: #c41e3a;
+  --poe-green: #22c55e;
+  --poe-blue: #3b82f6;
+  --poe-text: #e8e6e3;
+  --poe-text-muted: #8a8a8a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, var(--poe-dark) 0%, var(--poe-card) 50%, var(--poe-dark) 100%);
+  background-attachment: fixed;
+  color: var(--poe-text);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--poe-darker);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--poe-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--poe-gold-dark);
+}
+
+/* PoE-themed components */
+@layer components {
+  .poe-card {
+    @apply bg-poe-card border border-poe-border rounded-lg p-6 shadow-poe;
+  }
+
+  .poe-card-hover {
+    @apply poe-card transition-all duration-300 hover:shadow-poe-hover hover:border-poe-gold/30;
+  }
+
+  .poe-button {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+    @apply bg-gradient-to-r from-poe-gold-dark via-poe-gold to-poe-gold-dark;
+    @apply text-poe-darker hover:from-poe-gold hover:via-poe-gold-light hover:to-poe-gold;
+    @apply shadow-poe hover:shadow-poe-hover;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-poe;
+  }
+
+  .poe-button-secondary {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+    @apply bg-poe-card border border-poe-border text-poe-text;
+    @apply hover:border-poe-gold hover:text-poe-gold;
+  }
+
+  .poe-input {
+    @apply w-full px-4 py-3 rounded-lg transition-all duration-300;
+    @apply bg-poe-darker border border-poe-border text-poe-text;
+    @apply focus:outline-none focus:border-poe-gold focus:ring-1 focus:ring-poe-gold/50;
+    @apply placeholder:text-poe-text-muted;
+  }
+
+  .poe-input-sm {
+    @apply px-3 py-2 text-sm;
+  }
+
+  .poe-label {
+    @apply block text-sm font-medium text-poe-text-muted mb-2;
+  }
+
+  .poe-heading {
+    @apply font-poe text-poe-gold;
+  }
+
+  .poe-divider {
+    @apply border-t border-poe-border my-6;
+  }
+
+  .profit-positive {
+    @apply text-poe-green font-semibold;
+  }
+
+  .profit-negative {
+    @apply text-poe-red font-semibold;
+  }
+
+  .profit-neutral {
+    @apply text-poe-text-muted;
+  }
+}
+
+/* Number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Animation for loading states */
+@keyframes pulse-gold {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Tooltip styles */
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+

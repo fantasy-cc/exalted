@@ -5,6 +5,7 @@ Simplified version with inline FastAPI app
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from mangum import Mangum
 import json
 import urllib.request
 from typing import Dict, List
@@ -69,5 +70,5 @@ async def get_currencies():
         "fetched_at": data.get('fetched_at', 'unknown')
     }
 
-# Vercel handler
-handler = app
+# Vercel handler - wrap FastAPI app with Mangum for serverless
+handler = Mangum(app)

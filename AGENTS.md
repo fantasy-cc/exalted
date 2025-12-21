@@ -1,8 +1,8 @@
 # AGENTS.md - Complete Context for AI Agents
 # Path of Exile 2 - Currency Arbitrage Calculator
 
-**Last Updated**: October 9, 2025  
-**Version**: 2.0 (Dynamic Currency System)
+**Last Updated**: December 19, 2025  
+**Version**: 3.0 (Next.js + Simplified Currency System)
 
 ---
 
@@ -29,53 +29,56 @@
 
 **Path of Exile 2 Currency Arbitrage Calculator** is a sophisticated web application that helps players identify profitable currency trading opportunities by:
 
-1. **Dynamically discovering** all available currencies from POE2Scout.com
-2. **Ranking currencies** by trading volume and popularity  
-3. **Finding arbitrage paths** (A→B→C→A) with real profit potential
-4. **Providing user control** over currency selection complexity
+1. **Focusing on core currencies**: Exalted, Chaos, and Divine Orbs
+2. **Calculating arbitrage strategies**: Base Currency → Item → Other Base → Back
+3. **Tracking gold efficiency**: Factors in trading fees (1000 gold per trade)
+4. **Allowing user price overrides**: Override scraped rates with in-game prices
 
-### Key Features
+### Key Features (v3.0)
 
-#### ✨ Dynamic Currency System
-- **Auto-discovery**: Finds ALL currencies on POE2Scout automatically
-- **Smart ranking**: Sorts by trading volume + market position
-- **User control**: Choose top 10% to 100% of currencies
-- **Real-time updates**: Adapts as new currencies are added to game
+#### ✨ Simplified Currency Model
+- **Three base currencies**: Exalted, Chaos, and Divine Orbs
+- **Smart exchange rates**: Auto-scraped from POE2Scout, with user override support
+- **LocalStorage persistence**: User settings and overrides saved locally
+- **Real-time calculations**: Instant strategy analysis
 
-#### 🎯 Advanced Arbitrage
-- **3-step paths**: A→B→C→A arbitrage calculations
-- **Live market data**: Real exchange rates via browser automation
-- **Profit analysis**: Accounts for realistic trading constraints
-- **Risk assessment**: Volume-based liquidity indicators
-- **Multi-scale display**: Shows opportunities at different investment levels
+#### 🎯 Gold Efficiency System
+- **Trading fee tracking**: Fixed 1000 gold per trade (configurable)
+- **Gold efficiency metric**: Profit per 1000 gold spent
+- **Net profit calculation**: Accounts for total gold cost
+- **Strategy comparison**: Compare strategies by gold efficiency
 
-#### 🎮 Dual Trading Modes
-- **📍 Specific Currency**: Analyze arbitrage from a chosen starting currency
-- **🏆 All Trades Ranked**: Find best opportunities across ALL currencies
-- **💎 Budget Filtering**: Filter by investment level (Micro/Small/Medium/Large/Whale)
+#### 🧮 Arbitrage Calculation
+- **Multiple strategies**: Analyzes various buy/sell/convert paths
+- **Best strategy highlighting**: Shows most profitable option
+- **Detailed trade steps**: Step-by-step breakdown with rates
+- **Path visualization**: Visual representation of trade flow
 
-#### ⚙️ Configuration Options
-- **Currency percentage**: Slider from 10% (fast) to 100% (comprehensive)
-- **Popularity metrics**: Toggle volume/score display in UI
-- **Advanced settings**: Collapsible panel for power users
-- **Responsive design**: Works on desktop and mobile
+#### ⚙️ User Price Overrides
+- **Override exchange rates**: Set custom Chaos→Ex and Divine→Ex rates
+- **Item price inputs**: Enter buy/sell prices in Exalted or Chaos
+- **Spread calculation**: Automatic spread display for each currency
+- **Ratio format support**: Enter prices as "5:1" for convenience
 
 ### Quick Start
 
 ```bash
-# 1. Start the backend
-cd backend/
-pip install -r requirements.txt
-playwright install chromium
-python app.py
+# 1. Install dependencies
+npm install
 
-# 2. Open frontend (new terminal)
-cd ..
-python -m http.server 3000
+# 2. Run the development server
+npm run dev
 
-# 3. Use the app
+# 3. Open in browser
 open http://localhost:3000
 ```
+
+### Tech Stack (v3.0)
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **Styling**: Tailwind CSS 3 with custom PoE theme
+- **State**: React hooks + localStorage for persistence
+- **Data**: Static JSON (scraped by GitHub Actions every 5 minutes)
+- **Deployment**: Vercel (static export)
 
 ### Production Deployment
 
@@ -309,54 +312,61 @@ class POE2ScoutService:
 
 ## 📁 FILE STRUCTURE
 
-### Complete Project Layout
+### Complete Project Layout (v3.0 - Next.js)
 
 ```
 exalted/                              # Project root
 ├── AGENTS.md                         # 🤖 This file - Complete AI context
 ├── SETUP_GITHUB_ACTIONS.md           # 📖 Setup guide for GitHub Actions deployment
 │
-├── .github/                          # 🤖 GitHub Actions automation
-│   ├── workflows/
-│   │   └── scrape-poe2scout.yml      # ⏰ Cron job (every 5 minutes)
-│   └── scripts/
-│       └── scrape_poe2scout.py       # 🎭 Playwright scraper script
+├── src/                              # 🚀 Next.js App (v3.0)
+│   ├── app/                          # Next.js App Router
+│   │   ├── layout.tsx                # Root layout with PoE theme
+│   │   ├── page.tsx                  # Main calculator page
+│   │   └── globals.css               # Global styles (Tailwind)
+│   ├── components/                   # React components
+│   │   ├── Calculator/               # Main calculator container
+│   │   │   ├── index.tsx             # Calculator logic & state
+│   │   │   └── ItemPriceInput.tsx    # Item price input component
+│   │   ├── ExchangeRates/            # Exchange rate inputs
+│   │   │   └── index.tsx             # Editable rate inputs
+│   │   ├── ArbitrageResults/         # Results display
+│   │   │   └── index.tsx             # Strategy cards & details
+│   │   └── ui/                       # Shared UI components
+│   │       ├── Button.tsx
+│   │       ├── Card.tsx
+│   │       └── Input.tsx
+│   ├── lib/                          # Utility functions
+│   │   ├── arbitrage.ts              # Arbitrage calculation logic
+│   │   ├── rates.ts                  # Rate fetching & parsing
+│   │   └── storage.ts                # LocalStorage utilities
+│   └── types/                        # TypeScript types
+│       └── index.ts                  # All type definitions
 │
-├── index.html                        # 🌐 Main frontend HTML page
-├── app.js                            # ⚡ Frontend JavaScript (dynamic currency)
-├── styles.css                        # 🎨 UI styling (PoE theme + config UI)
+├── public/                           # Static assets
+│   └── api/data/                     # Static JSON data (copied from api/data)
+│       ├── currencies.json           # Currency metadata
+│       └── rates.json                # Exchange rates
 │
-├── backend/                          # 🐍 Python backend (development/reference)
-│   ├── __init__.py
-│   ├── app.py                        # 🚀 FastAPI server (local dev)
-│   ├── requirements.txt              # 📦 Python dependencies
-│   ├── models/                       # 📊 Data models
-│   │   ├── __init__.py
-│   │   ├── rates.py                  # 💱 Currency rate matrix
-│   │   └── arbitrage.py              # 📈 Arbitrage finder
-│   └── services/                     # 🌐 External integrations
-│       ├── __init__.py
-│       └── poe2scout.py              # 🎭 POE2Scout data service
+├── api/data/                         # 📦 Source data (updated by GitHub Actions)
+│   ├── currencies.json               # Currency list with metadata
+│   └── rates.json                    # Exchange rate matrix
 │
-├── api/                              # 🔧 Vercel serverless functions
-│   ├── data/                         # 📦 Static JSON data (auto-updated by GitHub Actions)
-│   │   ├── currencies.json           # 💰 Currency list with metadata
-│   │   └── rates.json                # 💱 Exchange rate matrix
-│   ├── __init__.py
-│   ├── static_data.py                # 📖 Static data loader
-│   ├── simple_app.py                 # 🚀 Simplified FastAPI (reads static JSON)
-│   ├── index.py                      # 🔌 Vercel entry point
-│   └── requirements.txt              # 📦 Serverless dependencies
+├── backend/                          # 🐍 Legacy Python backend (reference only)
+│   └── ...                           # Old Python implementation
 │
-├── public/                           # 🌐 Public static files
-│   ├── index.html                    # Production frontend
-│   ├── app.js                        # Production JavaScript
-│   └── styles.css                    # Production CSS
-│
+├── next.config.ts                    # Next.js configuration
+├── tailwind.config.ts                # Tailwind CSS configuration
+├── tsconfig.json                     # TypeScript configuration
+├── postcss.config.mjs                # PostCSS configuration
 ├── vercel.json                       # ⚙️ Vercel deployment config
-├── package.json                      # 📦 Node.js metadata
-└── requirements.txt                  # 📦 Root Python dependencies
+├── package.json                      # 📦 Node.js dependencies
+└── .gitignore                        # Git ignore patterns
 ```
+
+### Legacy Files (kept for reference)
+- `index.html`, `app.js`, `styles.css` - Old vanilla JS frontend
+- `backend/` - Old Python FastAPI backend
 
 ### Core Files
 
