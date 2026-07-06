@@ -1,0 +1,774 @@
+{
+  "schema": 1,
+  "updated_at": "2026-07-06",
+  "source_hash": "3e50f962e069e158893fa003ca98f302c132f7489987b1715e2ce5a78ef5e1d8",
+  "sources": [
+    {
+      "path": "CONTEXT.md",
+      "sha256": "01a30927cf59c23e2fe3015a2f3a7ec5f5c4b5ab913339f024d797c48a1adc2f",
+      "lines": 1483
+    },
+    {
+      "path": "NOW.md",
+      "sha256": "3bedddb22adae7b2278db009cbcf7fad2e0dc9bf4b595514d428ce0ddb37deb7",
+      "lines": 14
+    }
+  ],
+  "cards": [
+    {
+      "id": "ctx-context-project",
+      "title": "CONTEXT.md: Project",
+      "summary": "exalted is a local project under /Users/lfan/Project. Preserve existing project-specific instructions while migrating to context-harness v3.",
+      "source": "CONTEXT.md#project",
+      "source_path": "CONTEXT.md",
+      "kind": "project",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 35,
+      "tags": [
+        "context",
+        "project"
+      ],
+      "read_when": [
+        "working on project"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-project.md",
+      "chunk_path": "",
+      "content_sha256": "93b320316e420ad8143cc27c562431d5123f192d309e62a8503ee0db98f27288",
+      "key_facts": [
+        "exalted is a local project under /Users/lfan/Project. Preserve existing project-specific instructions while migrating to context-harness v3."
+      ]
+    },
+    {
+      "id": "ctx-context-structure",
+      "title": "CONTEXT.md: Structure",
+      "summary": ".",
+      "source": "CONTEXT.md#structure",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 19,
+      "tags": [
+        "context",
+        "structure"
+      ],
+      "read_when": [
+        "working on structure"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-structure.md",
+      "chunk_path": "",
+      "content_sha256": "afeffe659b3f727b60dddf001aa352b42245ee964db4e33bfe24d6c5b43e7262",
+      "key_facts": [
+        ".",
+        ".github/",
+        ".playwright-mcp/",
+        ".vercel/",
+        "api/"
+      ]
+    },
+    {
+      "id": "ctx-context-operating-constraints",
+      "title": "CONTEXT.md: Operating Constraints",
+      "summary": "Do not store secrets or credentials in context files.",
+      "source": "CONTEXT.md#operating-constraints",
+      "source_path": "CONTEXT.md",
+      "kind": "constraints",
+      "scope": "project",
+      "importance": 0.9,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 31,
+      "tags": [
+        "context",
+        "operating-constraints",
+        "constraints"
+      ],
+      "read_when": [
+        "before planning or editing",
+        "checking project constraints",
+        "update context safely"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-operating-constraints.md",
+      "chunk_path": "",
+      "content_sha256": "fdd61e74c9f5ed5d035d92bf860d31fb298be81744d611ac69ec7811bbdd8e24",
+      "key_facts": [
+        "Do not store secrets or credentials in context files.",
+        "Preserve project-specific instructions when migrating context."
+      ]
+    },
+    {
+      "id": "ctx-context-workflow",
+      "title": "CONTEXT.md: Workflow",
+      "summary": "Setup: project-specific.",
+      "source": "CONTEXT.md#workflow",
+      "source_path": "CONTEXT.md",
+      "kind": "workflow",
+      "scope": "project",
+      "importance": 0.9,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 26,
+      "tags": [
+        "context",
+        "workflow"
+      ],
+      "read_when": [
+        "running, testing, linting, deploying, deployment, or verifying changes"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-workflow.md",
+      "chunk_path": "",
+      "content_sha256": "0ab6d29c8502dee4237f92624fdc7f7ec1f52ab78a3c737e2ccbea762e1156cc",
+      "key_facts": [
+        "Setup: project-specific.",
+        "Run: project-specific.",
+        "Test: project-specific.",
+        "Lint: project-specific."
+      ]
+    },
+    {
+      "id": "ctx-context-language",
+      "title": "CONTEXT.md: Language",
+      "summary": "canonical terms",
+      "source": "CONTEXT.md#language",
+      "source_path": "CONTEXT.md",
+      "kind": "language",
+      "scope": "project",
+      "importance": 0.82,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 12,
+      "tags": [
+        "context",
+        "language"
+      ],
+      "read_when": [
+        "using project terms or resolving naming ambiguity",
+        "update context terminology"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-language.md",
+      "chunk_path": "",
+      "content_sha256": "51902124068abada99bf937fb9fdd8cd3788316fc6537bfef79763e9b10bd1bb",
+      "key_facts": []
+    },
+    {
+      "id": "ctx-context-relationships",
+      "title": "CONTEXT.md: Relationships",
+      "summary": "AGENTS.md is the small activation layer; CONTEXT.md is the durable source of truth.",
+      "source": "CONTEXT.md#relationships",
+      "source_path": "CONTEXT.md",
+      "kind": "invariant",
+      "scope": "project",
+      "importance": 0.82,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 22,
+      "tags": [
+        "context",
+        "relationships",
+        "invariant"
+      ],
+      "read_when": [
+        "changing architecture or domain relationships",
+        "update context invariants"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-relationships.md",
+      "chunk_path": "",
+      "content_sha256": "b86243e9d63f676255e0313fca751d6b34a5d8770f901f752d907f2a090a560e",
+      "key_facts": [
+        "AGENTS.md is the small activation layer; CONTEXT.md is the durable source of truth."
+      ]
+    },
+    {
+      "id": "ctx-context-flagged-ambiguities",
+      "title": "CONTEXT.md: Flagged Ambiguities",
+      "summary": "Project-specific verification commands are not yet documented.",
+      "source": "CONTEXT.md#flagged-ambiguities",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 16,
+      "tags": [
+        "context",
+        "flagged-ambiguities"
+      ],
+      "read_when": [
+        "working on flagged ambiguities"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-flagged-ambiguities.md",
+      "chunk_path": "",
+      "content_sha256": "b26e909847b8a5c48db46bb123173d3834a8cb73e9af87fe1cb00a1460e31cbb",
+      "key_facts": [
+        "Project-specific verification commands are not yet documented."
+      ]
+    },
+    {
+      "id": "ctx-context-learned-patterns",
+      "title": "CONTEXT.md: Learned Patterns",
+      "summary": "durable lessons",
+      "source": "CONTEXT.md#learned-patterns",
+      "source_path": "CONTEXT.md",
+      "kind": "lesson",
+      "scope": "project",
+      "importance": 0.78,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 18,
+      "tags": [
+        "context",
+        "learned-patterns",
+        "lesson"
+      ],
+      "read_when": [
+        "avoiding repeated mistakes or applying prior corrections",
+        "update context with durable lessons"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-learned-patterns.md",
+      "chunk_path": "",
+      "content_sha256": "8d34f19e829f39d7f6a6ad617bcfb11d0005b578a7042cd3a59199444c422f94",
+      "key_facts": []
+    },
+    {
+      "id": "ctx-context-imported-agent-notes",
+      "title": "CONTEXT.md: Imported Agent Notes",
+      "summary": "Last Updated: December 19, 2025",
+      "source": "CONTEXT.md#imported-agent-notes",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 83,
+      "tags": [
+        "context",
+        "imported-agent-notes"
+      ],
+      "read_when": [
+        "working on imported agent notes"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-imported-agent-notes.md",
+      "chunk_path": "",
+      "content_sha256": "81694e01ebb52184079dd66d7869cad58b7010c9b21b02fcece2d353a9a78bcf",
+      "key_facts": [
+        "Last Updated: December 19, 2025",
+        "Version: 3.0 (Next.js + Simplified Currency System)",
+        "---"
+      ]
+    },
+    {
+      "id": "ctx-context-table-of-contents",
+      "title": "CONTEXT.md: 📋 TABLE OF CONTENTS",
+      "summary": "[Project Overview](#project-overview)",
+      "source": "CONTEXT.md#table-of-contents",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 119,
+      "tags": [
+        "context",
+        "table-of-contents"
+      ],
+      "read_when": [
+        "working on 📋 table of contents"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-table-of-contents.md",
+      "chunk_path": "",
+      "content_sha256": "dc3a15008be3fb7eaf93366f1395d73e391203a4df9c734f11680119c272cf06",
+      "key_facts": [
+        "[Project Overview](#project-overview)",
+        "[Current Status](#current-status)",
+        "[Architecture](#architecture)",
+        "[File Structure](#file-structure)",
+        "[API Reference](#api-reference)"
+      ]
+    },
+    {
+      "id": "ctx-context-project-overview",
+      "title": "CONTEXT.md: 📋 PROJECT OVERVIEW",
+      "summary": "Path of Exile 2 Currency Arbitrage Calculator is a sophisticated web application that helps players identify profitable currency trading opportunities by:",
+      "source": "CONTEXT.md#project-overview",
+      "source_path": "CONTEXT.md",
+      "kind": "project",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 584,
+      "tags": [
+        "context",
+        "project-overview",
+        "project",
+        "what-this-project-does",
+        "key-features-v3-0",
+        "quick-start",
+        "tech-stack-v3-0",
+        "production-deployment"
+      ],
+      "read_when": [
+        "working on 📋 project overview"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-project-overview.md",
+      "chunk_path": "",
+      "content_sha256": "b274b57ae22bc5927c57f54dc0a09b143051558c91572c8a47ff6d8fdf34ee74",
+      "key_facts": [
+        "Path of Exile 2 Currency Arbitrage Calculator is a sophisticated web application that helps players identify profitable currency trading opportunities by:",
+        "Focusing on core currencies: Exalted, Chaos, and Divine Orbs",
+        "Calculating arbitrage strategies: Base Currency → Item → Other Base → Back",
+        "Tracking gold efficiency: Factors in trading fees (1000 gold per trade)",
+        "Allowing user price overrides: Override scraped rates with in-game prices"
+      ]
+    },
+    {
+      "id": "ctx-context-current-status",
+      "title": "CONTEXT.md: 🚀 CURRENT STATUS",
+      "summary": "✅ Production Deployment: LIVE with REAL-TIME DATA on Vercel",
+      "source": "CONTEXT.md#current-status",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 1039,
+      "tags": [
+        "context",
+        "current-status",
+        "production-status-october-2025",
+        "recent-major-updates-september-2025"
+      ],
+      "read_when": [
+        "working on 🚀 current status"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-current-status.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-current-status.md",
+      "content_sha256": "ff992ae57a91717ba80c1fc7897ecbed2b25fb3434de717573df77cc02218b60",
+      "key_facts": [
+        "✅ Production Deployment: LIVE with REAL-TIME DATA on Vercel",
+        "✅ Frontend: Beautiful PoE-themed UI with dark styling and gold accents",
+        "✅ Backend API: Fully functional Python serverless functions reading from static JSON",
+        "✅ Live Data Integration: GitHub Actions scrapes POE2Scout.com every 5 minutes",
+        "✅ Currency Data: Real-time currency discovery and exchange rates (auto-updated)"
+      ]
+    },
+    {
+      "id": "ctx-context-architecture",
+      "title": "CONTEXT.md: 🏗️ ARCHITECTURE",
+      "summary": "┌─────────────────────────────────────────────────────────────────┐",
+      "source": "CONTEXT.md#architecture",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 1614,
+      "tags": [
+        "context",
+        "architecture",
+        "system-overview-current-github-actions-static-json",
+        "architecture-layers",
+        "data-flow",
+        "key-components",
+        "performance-characteristics"
+      ],
+      "read_when": [
+        "working on 🏗️ architecture"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-architecture.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-architecture.md",
+      "content_sha256": "b4bad8880212badc125bba7deef9cd209e5ba78ae3ed7052d4b1f09ec1958828",
+      "key_facts": [
+        "┌─────────────────────────────────────────────────────────────────┐",
+        "│                 GITHUB ACTIONS (Every 5 minutes)                 │",
+        "│  • Runs Playwright scraper                                      │",
+        "│  • Extracts live data from POE2Scout.com                        │",
+        "│  • Commits JSON files to repository                             │"
+      ]
+    },
+    {
+      "id": "ctx-context-file-structure",
+      "title": "CONTEXT.md: 📁 FILE STRUCTURE",
+      "summary": "exalted/                              # Project root",
+      "source": "CONTEXT.md#file-structure",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 1032,
+      "tags": [
+        "context",
+        "file-structure",
+        "complete-project-layout-v3-0-next-js",
+        "legacy-files-kept-for-reference",
+        "core-files"
+      ],
+      "read_when": [
+        "working on 📁 file structure"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-file-structure.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-file-structure.md",
+      "content_sha256": "16c8bb7fdf92e34102cc9c516fe63aa04fb30db2dcd104f20d40593159e04a1e",
+      "key_facts": [
+        "exalted/                              # Project root",
+        "├── AGENTS.md                         # 🤖 This file - Complete AI context",
+        "├── SETUPGITHUBACTIONS.md           # 📖 Setup guide for GitHub Actions deployment",
+        "│",
+        "├── src/                              # 🚀 Next.js App (v3.0)"
+      ]
+    },
+    {
+      "id": "ctx-context-api-reference",
+      "title": "CONTEXT.md: 📡 API REFERENCE",
+      "summary": "Local Development: http://localhost:8000/api",
+      "source": "CONTEXT.md#api-reference",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 895,
+      "tags": [
+        "context",
+        "api-reference",
+        "base-url",
+        "core-endpoints",
+        "error-responses"
+      ],
+      "read_when": [
+        "working on 📡 api reference"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-api-reference.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-api-reference.md",
+      "content_sha256": "61e2b5f4a91db78fdf15a5993bfc729ca8f51925e9c016e449de3fd9b6f4f671",
+      "key_facts": [
+        "Local Development: http://localhost:8000/api",
+        "Production: https://exalted-oolmal1u9-lifan-chens-projects.vercel.app/api",
+        "Get list of supported currencies with dynamic discovery and popularity ranking.",
+        "Parameters:",
+        "league (string, optional): POE2 league name (default: \"Rise of the Abyssal\")"
+      ]
+    },
+    {
+      "id": "ctx-context-technical-implementation",
+      "title": "CONTEXT.md: 🔧 TECHNICAL IMPLEMENTATION",
+      "summary": "// Exchange rate matrix (backend)",
+      "source": "CONTEXT.md#technical-implementation",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 1277,
+      "tags": [
+        "context",
+        "technical-implementation",
+        "currency-data-structure",
+        "supported-currencies-dynamic-discovery",
+        "arbitrage-algorithm",
+        "dynamic-default-system",
+        "budget-range-system",
+        "multi-scale-display-format",
+        "exchange-rate-data",
+        "caching-strategy",
+        "slippage-and-spread-handling"
+      ],
+      "read_when": [
+        "working on 🔧 technical implementation"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-technical-implementation.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-technical-implementation.md",
+      "content_sha256": "98552d4431c910d20c4fd8a045f729a170c02dc77d013b949240566e7d03a960",
+      "key_facts": [
+        "// Exchange rate matrix (backend)",
+        "CURRENCYRATES = {",
+        "currencyA: {",
+        "currencyB: rate,  // 1 currencyA = rate currencyB",
+        "currencyC: rate"
+      ]
+    },
+    {
+      "id": "ctx-context-ui-ux-design",
+      "title": "CONTEXT.md: 🎨 UI/UX DESIGN",
+      "summary": "Dark theme: Matches Path of Exile's aesthetic",
+      "source": "CONTEXT.md#ui-ux-design",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 1000,
+      "tags": [
+        "context",
+        "ui-ux-design",
+        "design-philosophy",
+        "html-structure",
+        "css-styling",
+        "user-flow",
+        "interactive-elements",
+        "accessibility"
+      ],
+      "read_when": [
+        "working on 🎨 ui/ux design"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-ui-ux-design.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-ui-ux-design.md",
+      "content_sha256": "c1a8dcd0ca69003abe32ec7a41dc292850405a6de27f3d9481c31f5c4cab7be2",
+      "key_facts": [
+        "Dark theme: Matches Path of Exile's aesthetic",
+        "Gold accents: Uses PoE's signature color (#d4af37)",
+        "Clear hierarchy: Important information (profit %) prominently displayed",
+        "Mobile-first: Responsive design for all screen sizes",
+        "Loading states: Smooth animations and status updates"
+      ]
+    },
+    {
+      "id": "ctx-context-configuration",
+      "title": "CONTEXT.md: ⚙️ CONFIGURATION",
+      "summary": "Create .env file in backend/ directory:",
+      "source": "CONTEXT.md#configuration",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 737,
+      "tags": [
+        "context",
+        "configuration",
+        "backend-configuration",
+        "frontend-configuration",
+        "performance-optimization"
+      ],
+      "read_when": [
+        "working on ⚙️ configuration"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-configuration.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-configuration.md",
+      "content_sha256": "78aa5eb69001324ae4674ab54f623c361747b95a00ce90767f0216905e1fa0a7",
+      "key_facts": [
+        "Create .env file in backend/ directory:",
+        "HOST=0.0.0.0",
+        "PORT=8000",
+        "DEBUG=True",
+        "DEFAULTTOPPERCENTAGE=0.8"
+      ]
+    },
+    {
+      "id": "ctx-context-deployment",
+      "title": "CONTEXT.md: 🚀 DEPLOYMENT",
+      "summary": "cd backend/",
+      "source": "CONTEXT.md#deployment",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 541,
+      "tags": [
+        "context",
+        "deployment",
+        "local-development",
+        "production-deployment-vercel",
+        "docker-deployment-optional"
+      ],
+      "read_when": [
+        "working on 🚀 deployment"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-deployment.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-deployment.md",
+      "content_sha256": "817bf1a0a81e58f8710e31bcdec621f8d4a9acb79c377d5d124d24ec6b81fa76",
+      "key_facts": [
+        "cd backend/",
+        "pip install -r requirements.txt",
+        "playwright install chromium",
+        "python app.py",
+        "cd .."
+      ]
+    },
+    {
+      "id": "ctx-context-development-guidelines",
+      "title": "CONTEXT.md: 👨‍💻 DEVELOPMENT GUIDELINES",
+      "summary": "Indentation: 2 spaces for JavaScript/CSS, 4 spaces for Python",
+      "source": "CONTEXT.md#development-guidelines",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 836,
+      "tags": [
+        "context",
+        "development-guidelines",
+        "code-patterns-to-follow",
+        "when-making-changes",
+        "testing-guidelines",
+        "adding-new-features",
+        "debugging-tips"
+      ],
+      "read_when": [
+        "working on 👨‍💻 development guidelines"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-development-guidelines.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-development-guidelines.md",
+      "content_sha256": "b0e4339e25c26f0178c97c7742d5eb347beef9eb63f0cc16fdcabe1220fa65c5",
+      "key_facts": [
+        "Indentation: 2 spaces for JavaScript/CSS, 4 spaces for Python",
+        "Naming: camelCase for JavaScript, snakecase for Python",
+        "Comments: Clear function/class documentation",
+        "try:",
+        "result = await fetchdata()"
+      ]
+    },
+    {
+      "id": "ctx-context-troubleshooting",
+      "title": "CONTEXT.md: 🔧 TROUBLESHOOTING",
+      "summary": "Problem: Currencies not loading or incomplete data",
+      "source": "CONTEXT.md#troubleshooting",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.74,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 829,
+      "tags": [
+        "context",
+        "troubleshooting",
+        "common-issues",
+        "performance-metrics"
+      ],
+      "read_when": [
+        "working on 🔧 troubleshooting"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-troubleshooting.md",
+      "chunk_path": ".context-harness/chunks/ctx-context-troubleshooting.md",
+      "content_sha256": "edb4a830440c57c3c1604ec3e6f1e9563c64cefcc1d196ba1c85de3ab5053dde",
+      "key_facts": [
+        "Problem: Currencies not loading or incomplete data",
+        "Debug:",
+        "cd backend/services",
+        "python poe2scout.py",
+        "tail -f ../logs/arbitrage.log | grep \"currency\""
+      ]
+    },
+    {
+      "id": "ctx-context-future-roadmap",
+      "title": "CONTEXT.md: 🔮 FUTURE ROADMAP",
+      "summary": "[ ] Historical rate tracking and trend analysis",
+      "source": "CONTEXT.md#future-roadmap",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 394,
+      "tags": [
+        "context",
+        "future-roadmap",
+        "planned-features",
+        "technical-improvements"
+      ],
+      "read_when": [
+        "working on 🔮 future roadmap"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-future-roadmap.md",
+      "chunk_path": "",
+      "content_sha256": "a0282716ecd54e4e8ea736794b74891253c1c0a27cfce717c08ad1699d2d5908",
+      "key_facts": [
+        "[ ] Historical rate tracking and trend analysis",
+        "[ ] Multi-exchange data aggregation (beyond POE2Scout)",
+        "[ ] Predictive analytics for market trends",
+        "[ ] Real-time WebSocket data feeds",
+        "[ ] Cross-league arbitrage opportunities"
+      ]
+    },
+    {
+      "id": "ctx-context-important-notes-for-ai-agents",
+      "title": "CONTEXT.md: 📝 IMPORTANT NOTES FOR AI AGENTS",
+      "summary": "Data Source: Live data from poe2scout.com via HTTP extraction (serverless-compatible)",
+      "source": "CONTEXT.md#important-notes-for-ai-agents",
+      "source_path": "CONTEXT.md",
+      "kind": "context",
+      "scope": "project",
+      "importance": 0.65,
+      "confidence": "confirmed",
+      "recency": "2026-07-06",
+      "tokens_est": 673,
+      "tags": [
+        "context",
+        "important-notes-for-ai-agents",
+        "critical-information",
+        "key-design-decisions",
+        "integration-points",
+        "maintenance-priorities",
+        "code-quality-standards",
+        "contact-context"
+      ],
+      "read_when": [
+        "working on 📝 important notes for ai agents"
+      ],
+      "card_path": ".context-harness/cards/ctx-context-important-notes-for-ai-agents.md",
+      "chunk_path": "",
+      "content_sha256": "417e20530d1a628b49b209beb500a5aca40aafe05d36783ff462580ddc520f1b",
+      "key_facts": [
+        "Data Source: Live data from poe2scout.com via HTTP extraction (serverless-compatible)",
+        "Currency Discovery: Dynamic - system finds ALL currencies automatically",
+        "Default Configuration: Top 80% of currencies provides optimal balance",
+        "Caching: 5-minute TTL with background refresh",
+        "Fallback: Static rates used when live data unavailable"
+      ]
+    },
+    {
+      "id": "ctx-now-now",
+      "title": "NOW.md: Now",
+      "summary": "Context-harness v3 migration completed for exalted.",
+      "source": "NOW.md#now",
+      "source_path": "NOW.md",
+      "kind": "resume",
+      "scope": "task",
+      "importance": 0.95,
+      "confidence": "confirmed",
+      "recency": "2026-06-26",
+      "tokens_est": 91,
+      "tags": [
+        "now",
+        "resume"
+      ],
+      "read_when": [
+        "resuming the current session",
+        "choosing the immediate next step",
+        "update context after current work"
+      ],
+      "card_path": ".context-harness/cards/ctx-now-now.md",
+      "chunk_path": "",
+      "content_sha256": "3bedddb22adae7b2278db009cbcf7fad2e0dc9bf4b595514d428ce0ddb37deb7",
+      "key_facts": [
+        "Context-harness v3 migration completed for exalted.",
+        "None recorded.",
+        "Use the generated AGENTS.md Context Index to open relevant CONTEXT.md sections before planning or editing.",
+        "Last modified: 2026-06-26T17:31:29.912Z",
+        "Files touched: AGENTS.md, CONTEXT.md, NOW.md, scripts/"
+      ]
+    }
+  ]
+}
