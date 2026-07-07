@@ -24,5 +24,10 @@ tags: [context, future-roadmap, planned-features, technical-improvements]
 - [ ] Real-time WebSocket data feeds
 - [ ] Cross-league arbitrage opportunities
 
-## Open next
+## Retrieval order
+- Read `NOW.md` and concise `CONTEXT.md` as the always-read layer.
+- Use this card before opening bulky `PLAN.md`, chunks, or raw source sections for this topic.
+- Open raw detail only when this summary is insufficient for the task.
+
+## Open next only if needed
 - `CONTEXT.md#future-roadmap`

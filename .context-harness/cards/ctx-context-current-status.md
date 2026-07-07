@@ -24,6 +24,11 @@ tags: [context, current-status, production-status-october-2025, recent-major-upd
 - ✅ Live Data Integration: GitHub Actions scrapes POE2Scout.com every 5 minutes
 - ✅ Currency Data: Real-time currency discovery and exchange rates (auto-updated)
 
-## Open next
+## Retrieval order
+- Read `NOW.md` and concise `CONTEXT.md` as the always-read layer.
+- Use this card before opening bulky `PLAN.md`, chunks, or raw source sections for this topic.
+- Open raw detail only when this summary is insufficient for the task.
+
+## Open next only if needed
 - `CONTEXT.md#current-status`
 - `.context-harness/chunks/ctx-context-current-status.md`

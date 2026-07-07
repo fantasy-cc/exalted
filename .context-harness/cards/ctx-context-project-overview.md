@@ -24,5 +24,10 @@ Path of Exile 2 Currency Arbitrage Calculator is a sophisticated web application
 - Tracking gold efficiency: Factors in trading fees (1000 gold per trade)
 - Allowing user price overrides: Override scraped rates with in-game prices
 
-## Open next
+## Retrieval order
+- Read `NOW.md` and concise `CONTEXT.md` as the always-read layer.
+- Use this card before opening bulky `PLAN.md`, chunks, or raw source sections for this topic.
+- Open raw detail only when this summary is insufficient for the task.
+
+## Open next only if needed
 - `CONTEXT.md#project-overview`
